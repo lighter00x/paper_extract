@@ -1,0 +1,13 @@
+openai==1.77.0
+torch==2.5.0
+torch==2.5.0
+pandas==2.2.3
+pathlib
+requests
+base64
+hashlib
+tdqm
+dotenv
+ast
+glob
+cv2
