@@ -51,8 +51,7 @@ def retry_with_backoff(func, retries=3, base_delay=1):
                 raise e
 
 
-def process_image_directory(image_dir: Union[str, Path], api_base: str = "http://101.126.35.171:50008") -> pd.DataFrame:
-# def process_image_directory(image_dir: Union[str, Path], api_base: str = "http://localhost:50008") -> pd.DataFrame:
+def process_image_directory(image_dir: Union[str, Path], api_base: str = "") -> pd.DataFrame:
     image_dir = Path(image_dir)
     assert image_dir.exists() and image_dir.is_dir(), f"路径无效：{image_dir}"
 
