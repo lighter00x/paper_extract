@@ -1,0 +1,922 @@
+[
+    {
+        "type": "text",
+        "text": "Optimizing Pyrazolopyrimidine Inhibitors of Calcium Dependent Protein Kinase 1 for Treatment of Acute and Chronic Toxoplasmosis ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "James W. Janetka,\\* Allen T. Hopper, Ziping Yang, Jennifer Barks, Mary Savari Dhason, Qiuling Wang, and L. David Sibley\\* ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cite This: J. Med. Chem. 2020, 63, 6144−6163 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/c19d70c642f130e4b6d9f3eef6fb4d5ce92e7374b9ed73a6cfbfcd34a1786519.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ABSTRACT: Calcium dependent protein kinase 1 (CDPK1) is an essential Ser/Thr kinase that controls invasion and egress by the protozoan parasite Toxoplasma gondii. The Gly gatekeeper of CDPK1 makes it exquisitely sensitive to inhibition by small molecule 1H-pyrazolo[3,4-d]pyrimidine-4-amine (PP) compounds that are bulky ATP mimetics. Here we rationally designed, synthesized, and tested a series of novel PP analogs that were evaluated for inhibition of CDPK1 enzyme activity in vitro and parasite growth in cell culture. Optimal substitution on the PP scaffold included 2-pyridyl ethers directed into the hydrophobic pocket and small carbocyclic rings accessing the ribose-binding pocket. Further optimization of the series led to identification of the lead compound 3a that displayed excellent potency, selectivity, safety profile, and efficacy in vivo. The results of these studies provide a foundation for further work to optimize CDPK1 inhibitors for the treatment of acute and chronic toxoplasmosis. ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "INTRODUCTION ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Toxoplasma gondii is a widespread parasite of domestic, companion, and wild animals that also frequently causes infections in humans.1 The organism’s life cycle involves an acute phase dominated by rapidly growing tachyzoite stages that proliferate and disseminate widely within the body.2 Following a vigorous immune response, the parasite differentiates into a semidormant state characterized by tissue cysts that contain bradyzoites, which replicate slowly and asynchronously.3 Although the turnover of the chronic tissue stages is not precisely understood, available evidence suggests that there are successive waves of cysts that are formed, expand slowly, and rupture to release bradyzoites.4 The majority of these released stages are destroyed by the adaptive immune response, and yet they give rise to daughter cysts such that the chronic infection is perpetuated. When ingested by members of the cat family, bradyzoites can initiate development of the sexual phase within enterocytes of the gut resulting in shedding of oocysts in the feces.5 Oocysts are highly persistent in the environment and serve as a source of infection for many species of intermediate hosts including rodents and domestic animals.2 Because T. gondii infection occurs commonly in food animals, it poses a risk to food safety and animal well being. ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Humans become infected with T. gondii by ingestion of tissue cysts in undercooked meat or oocyst contaminated food or water.6 Most human infections give rise to mild illness that is effectively controlled by the immune response; however, toxoplasmosis poses a serious risk to the immunocompromised and due to congenital infection.7 The severity of toxoplasmosis is related to the fact that tachyzoites disseminate to all organs and readily form tissue cysts within neurons in the brain and endothelial cells in the retina.7 When these chronic infections reactivate due to decreased immunity, the tachyzoite forms reemerge and proliferate rapidly to cause encephalitis and retinitis, respectively.8 Hence, drugs must readily cross the blood−brain barrier in order to be effective in control of toxoplasmosis. Current therapy for toxoplasmosis relies on inhibition of the folate pathway with pyrimethamine and sulfadiazine.9 Complications from this treatment include intolerance to sulfa drugs, intolerance of pyrimethamine due to gastrointestinal distress, and the potential for bone marrow suppression that requires coadministration of leucovorin (i.e., folic acid).10 Although the current standard of care can suppress active infection due to proliferation of tachyzoites, it has no effect on the semidormant bradyzoite forms.10a Although there are backup treatments that can be used in the event of toxicity (i.e., clindamycin, atovaquone, azithromycin), they are also unable to cure chronic infection.9 Consequently, those at risk of toxoplasmosis need to be treated for long-term, which is particularly problematic for the immunocompromised or newborns. As such, there is a need to develop new treatments with an improved safety profile and that would target the bradyzoites stages that are responsible for infection. ",
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/f58b412b53583471592d77fa69ba86e1d777bf9d1daa1e5a16c03b34ce7bf1c2.jpg",
+        "table_caption": [
+            "Table 1. Comparison of PP CDPK1 Inhibitors with Phenyl (1) vs 2-Pyridyl (2) Ether R1 Groups "
+        ],
+        "table_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The intracellular phases of T. gondii infection rely on active motility to power cell invasion and egress.11 Among the components that are essential for this process is the calcium dependent protein kinase 1 (CDPK1), which controls microneme secretion and thus is essential for parasite motility, cell invasion, and egress.12 The recognition that CDPK1 contains a glycine (Gly) gatekeeper residue13 allowed repurposing of bulky small molecule ATP mimetics previously used to probe kinase function based on engineering of mammalian kinases to render them selectively susceptible.14 On the basis of this discovery, we and others have explored the existing $1H.$ -pyrazolo[3,4-d]pyrimidine-4-amine or “pyrazolopryimidine” (PP) kinase inhibitor scaffold (Table 1) identifying compounds with good enzyme activity against CDPK1.13a,15,16 Other scaffolds based on the PP framework have also been shown to exploit this feature of the small gatekeeper residue,17 and the shared nature of this enlarged ATP binding pocket has been used to demonstrate the general utility of CDPK1 inhibitors for inhibiting a variety of related parasites.18 ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Previous studies have shown that within the core PP scaffold, the 4-position $\\mathrm{NH}_{2}$ and adjacent N5 of the pyrimidine ring interact with the hinge region of the kinase; the R1 substituent at the C3 position protrudes into the large hydrophobic pocket defined by the Gly gatekeeper residue; and the pyrazolo N1 substituent at the R2 position extends into the ribose sugar binding region of the ATP pocket.17 ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Analogs from the PP series were shown to control acute infection in the murine model15c,19 a nd to either decrease the burden of chronic infection16b or cure immunocompromised mice with chronic infection.20 The ability of PP-based inhibitors to reduce or prevent chronic infection may be related to the reliance of bradyzoites on CDPK1 for invasion, as suggested by ex vivo treatment of tissue cysts from chronically infected mice.20 The effectiveness of PP inhibitors against bradyzoites is especially noteworthy as current therapies have little effect on these stages. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Although CDPK1 shows promise as a target for developing new inhibitors of parasite infection, existing analogs have been limited by serval undesirable features. Some of the previously described compounds exhibited problems such as lack of kinase selectivity (e.g., inhibition of Src or other human kinases)15a,b,16c,20 or undesired inhibition of the hERG channel,21 while others displayed adverse neurological symptoms when used to treat large animals.16b Other potent analogs in vitro showed low metabolic stability in liver microsomes (mouse and human) and high in vivo clearance in mice limiting their potential for advancement.15c,20 Herein we sought to rationally design and optimize new potent diverse PP CDPK1 inhibitors with improved drug-like properties, metabolic stability, and pharmacokinetic and safety profiles for advancement to the clinic. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "RESULTS AND DISCUSSION ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "We previously reported on a unique series of PP CDPK1 inhibitors15c,20 having a tert-butyl at the pyrazolo R2 position and a phenyl ether at the R1 position $(\\mathbf{1}\\mathbf{a}-\\mathbf{c};$ Table 1). We discovered the meta ${\\bf R}_{3}$ position on the phenyl ether was preferred for potency, further identifying trifluoromethyl, chloro, and methyl substituents as optimal substituents. While these analogs showed excellent potency and moderate cell activity, their stability in mouse liver microsomes was extremely low (half-life of ${\\sim}10~\\mathrm{min}$ ). Thus, we initiated studies directed at evaluating new CDPK1 inhibitors using the PP scaffold with significant modification of R1 and R2 groups. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Inhibition of CDPK1. To evaluate potential inhibitors of CDPK1, we expressed recombinant parasite enzymes in E. coli and used an ELISA assay to detect phosphorylation of a conserved peptide, as described previously.20 CDPK1 activity was tested across an 11-point dilution series ranging from 20 $\\mu\\mathbf{M}$ to $0.17~\\mathrm{nM}$ . We also tested compounds for inhibition of parasite growth using a previously described type 1 RH transgenic parasite that expresses $\\beta$ -galactosidase.22 Growth of $T$ . gondii tachyzoites in monolayers of human foreskin fibroblasts was tested across an 11-point dilution series ranging from $10~\\mu\\mathrm{M}$ to $0.13~\\mathrm{nM}$ compound. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Rational Design of Novel PP-Based CDPK1 Inhibitors. Using the X-ray structure of compound 1b (Table 1) bound to CDPK1 (PDB code 4IHP) and our previous structural studies of other analogs,20 it was hypothesized that addition of a nitrogen in the ortho ring position (2-pyridyl; 2b) would lock the 4-Cl-2-pyridyl ring in the bound confirmation through an internal H-bond to the 4 amino $\\mathrm{NH}_{2}$ (Figure 1A) while at the same time significantly changing the physical properties and metabolic profile of the compound. Therefore, we synthesized analogs 2a and 2b and found that they retained similar values for enzyme inhibition, but were ${\\sim}10$ -fold more potent in inhibition of parasite growth. Additionally, the stability in human liver microsomes of 2b improved 5-fold over matched pair 1b with a decent half-life of $60\\mathrm{min}$ . Further exploration of ${\\bf R}_{3}$ substituents in the 4-position produced cyano compound ",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/75029788940b708c1fbd9e7faccc94d1b004e8c0556db6cb3a071bd1cefffe6d.jpg",
+        "img_caption": [
+            "Figure 1. Models of (A) 2-pyridyl-5-chloro PP 2b and (B) 2-pyridyl5-hydroxy PP 4l (tBu R2) based on X-ray structure of 1b bound to CDPK1 (PDB code 4IHP). Residues that are thought to make contacts are highlighted. "
+        ],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2c that displayed excellent metabolic stability in human liver microsomes (half-life of $>145\\ \\mathrm{min}_{.}$ ) and increased stability in mouse microsomes as well (half-life of $46\\mathrm{\\min}\\mathrm{,}$ ). Next, we evaluated if the tert-butyl R2 group could be replaced with a smaller, less lipophilic, and often more metabolically stable cyclopropyl group. Compounds 3a, 3b, and 3c had improved metabolic stability and similar CDPK1 potency as their tertbutyl matched pairs $(2\\mathbf{a}-\\mathbf{c})$ , but cellular potency dropped-off by 2- to 5-fold (Table 1). ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Structure−Activity Relationships (SAR) of $R_{\\l_{1}}$ . On the basis of this preliminary work identifying the new O-linked pyridyl $\\mathrm{R}_{1},$ we pursued a library of PP analogs with varied R1 substituents where the $\\mathbf{R}_{2}$ group was held constant as cyclopropyl (Table 2). Interestingly, the analog where ${\\bf R}_{3}$ is a hydroxy group and $\\mathbb{R}_{2}$ is cyclopropyl showed good enzyme and growth inhibition (4l; Table 2). This outcome was unexpected as polar functional groups in this position are typically less active (e.g., 4x and $\\mathbf{4m}$ ). We further explored these findings by modeling this compound bound to CDPK1 (Figure 1B). We hypothesize that the ring is twisted $180^{\\circ}\\mathrm{deg}$ relative to 2b where the hydroxy group is making two H-bonds to backbone amide carbonyls of CDPK1. The model also places the pyridyl nitrogen within proximity for beneficial electronic interactions with a salt bridge Lys-Asp (Figure 1B). ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "It became clear that a pyridin-2-yl ring was preferred over other pyridine and dinitrogen heteroaryl ring systems. Further analysis of SAR indicated that the position of the substituent off the 2-pyridyl ring was also important to achieve high enzyme inhibition, with the 4 position being optimal as in previous compounds $_{2\\mathbf{a}-\\mathbf{c}}$ . For example, compare 6- chloropyridin-2-yl 4b with 4-chloropyridin-2-yl 3b with CDPK-1 $\\mathrm{IC}_{50}$ values of 988 and $8.4~\\mathrm{nM}$ , respectively (Table 2). This result was not surprising and is consistent with the location on the best non-pyridyl analogs reported previously. A compound worth mentioning is 2-pyrazine 4r that had good enzyme inhibition $\\left(\\mathrm{IC}_{50}=6\\bar{6}\\ \\mathrm{nM}\\right)$ comparable to that of the unsubstituted 2-pyridyl 4a $\\left(\\mathrm{IC}_{50}=38~\\mathrm{nM}\\right)$ ). Subsequently, we constructed derivatives with varied R3 groups at the 4-position of the pyridine-2-yl ring where we found, as before with $_{2\\mathbf{a}-\\mathbf{c},}$ that the $\\mathrm{CF}_{3}$ (3a), Cl (3b), and Me $\\mathbf{\\Pi}(4\\mathbf{u})$ groups had the best potency in both the enzyme and growth inhibition assays. ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Evaluation of 4-(Trifluoromethyl)pyridin-2-yl $P P R_{2}$ Substituents. Having identified the $\\mathrm{CF}_{3}$ group as preferred in the 4-position based on the combination of potency and stability, we next explored analogs with a diverse range of $\\mathbb{R}_{2}$ substitutions on the pyrazolo nitrogen (Table 3). We focused on carbocycles and nonaromatic heterocycles (5 and 6) and found that cyclopropyl (3a), cyclobutyl (7a, Table 4), cyclopentyl (5a, Table 3), and cyclohexyl (5b, Table 3) rings were mostly similar in enzyme and cell activity, with CDPK1 $\\mathrm{IC}_{50}$ values of 16, 9.8, 23, and $15\\ \\mathrm{nM}_{;}$ respectively. However, cyclopropyl (3a) was clearly differentiated from the others with superior metabolic stability in both mouse and human liver microsomes. The comparable oxygen containing heterocyclic analogs 3-oxetain, 3-tetrahydrofuran, 4-tetrahydropyran, and 3-tetrahydropyran (5c, 5d, 5e, 5f, Table 3) had reduced and variable CDPK-1 potencies of 440, 48, 29, and $116\\mathrm{\\nM},$ , respectively. The nitrogen containing heterocyclic analogs 4-piperidine and 3-piperidine (5g, 5i, Table 3) showed similar decreased activity against the CDPK1 enzyme with $\\mathrm{IC}_{50}$ values of 68 and $57~\\mathrm{nM}$ . One important piece of SAR was determined by comparing 4-piperidine ${\\mathfrak{s g}}$ to 3,3-gem-difluoro4-piperidine analog 5h. The difluoro analog was predicted to reduce the $\\mathsf{p}K_{\\mathrm{a}}$ of the piperidine ring nitrogen from a calculated value of 9.2 to 7.1 and thus hypothesized to improve cell penetration and potency. As predicted, 5h showed a 10-fold increase in growth inhibition, although some of this improvement is likely due to its 3-fold increase in enzyme inhibition potency. Unfortunately, this strategy was not successful for 3-piperidine 5i when compared to 3,3-gemdifluoro-5-piperidine 5j, which was ${>}3$ -fold less potent in growth inhibition. In contrast to the heterocycles, those rings appended externally with an oxygen or nitrogen largely retained enzyme inhibition with varied effects on growth inhibition and metabolic stability. The most promising results were obtained with either the four-membered or six-membered rings. Some representative examples include the 4-position cis and trans cyclohexyl alcohols 6c and 6b (Table 3), respectively. Both of these analogs had good enzyme and growth inhibition plus excellent half-life in human microsomes but only moderate stability in the mouse microsomes. Appending a methylene spacer between the ring and alcohol (6d, 6e, Table 3) had a negative effect on the stability, while methylation of the alcohols (6f, 6g, Table 3) decreased potency 2- to 3-fold without improvement in mouse microsome stability. However, 2-hydroxycyclohexanes (6j, Table 3) fared better, maintaining potency with increased mouse microsome half-life, which was largely dependent upon the stereochemistry with optimal substitution being trans and with the $^{R,R}$ stereochemistry as with 6j. 2-Hydroxycyclohexane stereoisomers $\\mathbf{6k}$ and 6i were of substantially weaker activity. The absolute stereochemistry was determined by small molecule X-ray crystallography (Figure 2). Compound 6j had an $\\mathrm{EC}_{50}$ of $77~\\mathrm{nM}$ in the growth inhibition assay in addition to ${>}145$ min half-life in human and $66~\\mathrm{min}$ half-life in mouse microsomes. Likewise, amino substituted cycloalkyls largely showed good inhibition of enzyme and growth but interestingly were somewhat dependent on relative and absolute stereochemistry. For example, comparison of cis-3- aminocyclopentane $\\left(6\\mathbf{m}\\right)$ to the trans isomer (6l) shows that the cis form was more potent in enzyme inhibition and also had excellent stability in human microsomes and a moderate 84 min half-life in mouse liver microsomes. A similar trend is noted for the 4-methylaminocyclohexyl versions as seen with 6n and 6o where the cis isomer 6n is also $3\\times$ more potent in growth inhibition (Table 3). The dimethyl analog 6q and the desmethyl analog 6p both had similar enzyme and growth inhibition plus ${>}145$ min half-life in human microsomes but only 17 and $55\\ \\mathrm{min}$ half-life in the mouse liver microscome assay, respectively. Other issues were identified with these promising amino carbocycles including cellular efflux as indicated from the MDCK permeability assay and thus potentially poor CNS permeability and low oral bioavailability. Thus, from this study, $4\\mathrm{-CF}_{3}$ -2-pyridylcyclopropyl 3a and 2- ",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6e8861cdd6ef016225f94bfa5cc3f676e2985d707a7f3cc44b4de945451d7ea8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/c86f3ac95443196ba56aa9c8cd4a528f9c0e32dfc30a3b344b39f6bef58e2675.jpg",
+        "table_caption": [
+            "Table 2. SAR of PP CDPK1 Inhibitors (4) with a Cyclopropyl R2 Group and Varied Heteroaryl Ether R2 Groups "
+        ],
+        "table_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Table 3. SAR of PP CDPK1 Inhibitors with 4-Trifluoromethyl(pyridine-2-yl) Ether at R1 with Unsubstituted Cycloalkyl and Heterocyclic Groups (5) or Substituted Cycloalkyl (6) at R2 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/99e95a3a9957b2ebba3e6117b64dc85fefb3809a3822e6ef4f0072ed7035e716.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/7bdf2de23191e9275a2482fb0bf5e91f782827763aa4bfa41328ec848f910bb4.jpg",
+        "table_caption": [
+            "5and6 "
+        ],
+        "table_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "hydroxycyclohexyl 6j pyrazolopyrimidines both emerged as new lead compounds for inhibition of CDPK1. ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Multivariate Analysis of 2-Pyridyl- $\\cdot4\\ –{C F}_{3},$ $C I,$ CN, and $O H$ Analogs with Optimal $R_{2}$ Groups. Shown in Table 4 are several analogs with other optimized R2 groups that were synthesized in all three $4\\mathrm{-CF}_{3},$ Cl, and CN series of 2-pyridyl PP CDPK1 inhibitors (7−13). Many of these optimal R2 groups are substituted cyclobutyl derivatives bearing either a hydroxy or fluoro substitution. As with previous SAR, we found that the trend for inhibition of CDPK1 activity and parasite growth inhibition was $\\mathrm{Cl}>\\mathrm{CF}_{3}>\\mathrm{CN}$ . Consistent with this pattern, the analogs of 7b, 7a, and $\\mathrm{\\Delta}7\\mathrm{\\pmb{c}}$ (Table 4) showed $\\mathrm{IC}_{50}$ values for enzyme inhibition of 6.2, 9.8, and $10~\\mathrm{nM}$ and $\\mathrm{EC}_{50}$ values for growth inhibition of 27, 95, and $272{\\mathrm{~nM}}$ . The trend was reversed for stability in microsomes where CN analog 7c had a half-life in human microsomes of $141~\\mathrm{min}$ while 7b and 7a had 20 and $61~\\mathrm{min}$ half-lives, respectively. In an attempt to improve upon 3a, the cyclopropyl was exchanged with a cyclopropylmethyl in compounds $\\mathbf{12a-c}$ (Table 4), but this led to decreased metabolic stability. A similar result was found from adding a methylene spacer as in $\\mathbf{13a-c}$ in comparison to 5j. On the other hand, addition of a gemdifluoro group to cyclohexyl 5b with 11a and 11b (Table 4) resulted in a ${>}145$ min half-life in human microsomes but only ${\\sim}25$ min half-life in mouse microsomes. Better results were obtained with both the hydroxy and fluorocyclobutyl $\\mathbb{R}_{2}$ groups. In this case, cis versus trans stereochemistry was not as important as seen with earlier analogs of different ${\\bf R}_{2}$ ring sizes. For example, cis hydroxy analogs 8a, 8b, and 8c have similar enzyme inhibition to trans hydroxy analogs 9a, 9b, and ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Table 4. Comparison of 2-Pyridyl ${\\mathfrak{s}}{\\mathbf{-}}{\\mathbf{C}}{\\mathbf{F}}_{3},$ CN, Cl (7−13), and OH (14) Ether R1 PP Compounds with Preferred R2 Groups ",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/16b3621f1acf994c1b35680afc7645251250c2c1738b21e38e120317ca5f629b.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/25621fdf8c45faf91e190c7da075907a2db5bc7c0f2ec0bd23ebc6b64653213e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9c (Table 4) but the latter analogs did have a slight increase in growth inhibition relative to the cis variants. The most promising result was discovered with trans-3-fluorocyclobutyl analog 10c. Although the 4-Cl 2-pyridyl analog 10b clearly had the best potency in parasite growth inhibition, the $4\\mathrm{-CF}_{3}$ analog 10a was not far behind, and the 4-CN version 10c had only a slightly diminished activity (Table 4). Excitingly, we elucidated that 10c also had good stability in both human and mouse microsomes with a half-life of $>145\\ \\mathrm{min}$ in both assays. In another study we looked at different ${\\bf R}_{2}$ groups where R was a 4-hydroxy-2-pyridine (14; Table 4) due to the promising results from initial cyclopropyl $\\mathbb{R}_{2}$ analog 4l (Figure 1B and Table 2). We surmised that the hydroxy group could potentially decrease metabolism; however, the best compound with a 4,4-difluorocyclohexyl $\\mathbb{R}_{2}$ 14d had a half-life of only 68 min in mouse microsomes. ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/66d4b09e58d96489bf29911b3c545f22b8f4420ea3eeb5869abd9f7e8d6c0932.jpg",
+        "img_caption": [
+            "Figure 2. Stereochemistry of 6j: (A) structure of compound showing stereochemistry of 6j; (B) small molecule X-ray structure of 6j. "
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "On the basis of compound 10c, we decided to evaluate one more set of compounds shown in Table 5 that had either the preferred trans-3-hydroxy (16a, 16b, 16c) or 3-fluoro (15a, 15b, 15c) cyclobutyl ${\\bf R}_{2}$ group. In this case, we switched the $\\mathbb{R}_{1}$ group back to a phenyl ether as opposed to pyridyl ether. Our combined results clearly demonstrate that the 2-pyridyl group in the new series of PP CDPK1 inhibitors is not only responsible for gains in cellular activity but also the enhancements attained in metabolic stability. ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Synthesis. Analogs of the PP scaffold were synthesized utilizing both existing and new synthetic transformations/ methodologies which are outlined in this section. Scheme 1 outlines the synthesis of compounds shown in Table 2 specifically bearing a cyclopropyl $\\mathbb{R}_{2}$ group. Starting from cyclopropylboronic acid (17), the hydrazine (18) was obtained from reaction with di-tert-butyl $(E)$ -diazene-1,2-dicarboxylate and copper acetate23 followed by Boc deprotection. A novel condensation of 18 with ketene ethylene acetal $\\mathbf{19}^{24}$ provided cyclopropylpyrazole intermediate 20. Cyclization to the ring fused $5{-}6$ pyrazolopyrimidine 21 was performed by reaction with formamide. Subsequent hydrolysis of the ethylene glycol ether with potassium hydroxide in diphenyl ether at high ",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/a96558d7cf872376c7d9135a66ef9ee55695221f6d2adc2661641f293e7f8172.jpg",
+        "img_caption": [
+            "aReagents and conditions: (a) di-tert-butyl $(E)$ -diazene-1,2-dicarboxylate, ${\\mathrm{Cu}}({\\mathrm{OAc}})_{2},$ DMF, 4 days; (b) HCI, EtOAc, $25^{\\circ}\\mathrm{C},3\\mathrm{h};$ (c) 2- chloroethyl carbonochloridate, ${\\mathrm{NaOH}}_{;}$ MeCN, $0{-}90\\ ^{\\circ}\\mathrm{C},$ $^{18\\mathrm{~h~}}$ (d) TEA, $\\mathrm{EtOH}$ , $90~^{\\circ}\\mathrm{C},$ , $3\\mathrm{{h}}$ ; (e) formamide, $180^{\\circ}\\mathrm{C}$ ${4}\\mathrm{{h}};$ ; (f) $\\mathrm{KOH}/\\mathrm{Ph}_{2}\\mathrm{O};$ $180^{\\circ}\\mathrm{C},$ 3 h; (g) 2-chloro-4- (trifluoromethyl)pyridine, $\\mathrm{K}_{2}\\mathrm{CO}_{3},$ DMSO, $120~^{\\circ}\\mathrm{C}$ . "
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/e8bb4eaa256cc374de83efc11d60041d0efaf9c085e77f5dfaa9135b65419098.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/11f9c75f7e4c880b418ad23e2b866861abe69a247f7ababcbac4b7aa7a6c1997.jpg",
+        "table_caption": [
+            "Scheme 1. Synthesis of the Cyclopropyl R2 Library with Varied Aryl R1 Ethers (Table 2) Exemplified by $3\\mathsf{a}^{a}$ ",
+            "Table 5. SAR of Phenyl- ${\\mathfrak{s}}{\\mathbf{-}}{\\mathbf{C}}{\\mathbf{F}}_{3},$ CN, Cl R1 Ether PP tCDPK1 Inhibitors (15, 16) with Preferred Cyclobutyl R2 Groups ",
+            "15-16 "
+        ],
+        "table_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Scheme 2. Synthesis of 2-Pyridyl- $\\mathbf{\\sigma}_{\\mathbf{4-CF}_{3}}$ R1 Library with Varied R2 Groups (Tables 1, 3 and 4) Exemplified by 2a and 6j aReagents and conditions: (a) 2-bromoisonicotinonitrile, DMSO, ${\\sf K}_{2}{\\sf C O}_{3}$ $120^{\\circ}\\mathsf{C}$ ， $12h$ (b) ${\\sf H}_{2}{\\sf S}{\\sf O}_{4}$ ， $0\\%$ , $^{3\\mathsf{h};}$ (c) DMA, $\\mathsf{C s}_{2}\\mathsf{C O}_{3}$ $120^{\\circ}\\mathsf{C}$ $12\\mathsf{h}$ (d) i. $\\mathsf{B C l}_{3}$ ,DCM, $-78-0\\circ C$ ii. SFC chiral chromatography; (e) NaH, BnBr, DMF, 0 ${}^{\\circ}{\\mathsf{C}};$ (f)MsCI,TEA,DCM, $0\\circ\\mathsf C$ ",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/e3ed45621c2acf16875b091e36164a17ed8252bfa38562c96229e65c56431eda.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/f5876a5c037f5459b558aa0f54e6e1b90e9595c872793e715aa7d6ef27187964.jpg",
+        "img_caption": [
+            "aReagents and conditions: (a) ${\\tt B o c}_{2}0$ ,DMAP, THF, $25\\circ0$ 1 h; (b) $N a H C O_{3}$ MeOH, $25\\circ_{\\mathsf{C}}$ $16\\mathsf{h};$ (c) 2-chlorocyclohexan-1-one, ${\\mathsf{C s}}_{2}{\\mathsf{C O}}_{3}$ ,DMF, $80~^{\\circ}\\mathsf{C}$ ;(d) (S)-CBS;(e)TFA "
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "temperature yielded key intermediate alcohol 22. The final target compounds such as 3a were all obtained by substitution reactions of the appropriate chloropyridine (2-chloro-4- (trifluoromethyl)pyridine for 3a) or bromoheterocyclo derivative with 22 using potassium carbonate and DMSO at 120 $^{\\circ}\\mathrm{C}$ . ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The 2-pyridyl-4- $\\mathrm{CF}_{3}$ pyridine PP analogs shown in Tables 1 and 3 were constructed through a similar approach as in Scheme 1 but with a slight variation to install the variable $\\mathbb{R}_{2}$ groups using a common intermediate shown in Scheme 2A. Starting with tert-butylpyrazolopyrimidine alcohol 23 (made in an analogous fashion to 22),25 reaction with the 2-chloro-4- (trifluoromethyl)pyridine as before gave compound 2a. Removal of the tert-butyl group was effected with concentrated sulfuric acid at $0~^{\\circ}\\mathrm{C}$ which gave advanced intermediate 24. As an example of a final target synthesis, lead compound 6j is highlighted. Cyclohexyl mesylate intermediate 27 was synthesized via a two-step procedure first by reaction of cyclohexane-cis-1,2-diol 25 with 0.5 equiv of benzyl bromide and NaH to provide monoprotected intermediate 26 and then further reaction with mesyl chloride. Displacement of the mesylate by 24 resulted in protected compound 27 which was debenzylated using boron trichloride. The final compound 6j was isolated as the pure $^{(R,R)}$ enantiomer following SFC chiral chromatography. A modified route was developed shown in Scheme 2B where intermediate 24 was di-Boc protected as 28, alkylated on the pyrazole nitrogen with 2-chlorocyclohexan-1- one to give 29. After a systematic study of different chiral reducing agents, the final compound 6j was obtained by utilization of the chiral reducing agent (S)-CBS (Corey− Bakshi−Shibata) oxazaborolidine catalyst which gave excellent enantioselectivity for the desired $^{\\mathrm{(R,R)}}$ isomer. ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Outlined in Scheme 3 is the general synthetic route applied in the synthesis of the 2-pyridyl-4-CN PP analogs shown in Tables 1 and 4. Once again starting from intermediate 23, reaction with 2-bromoisonicotinonitrile yields tert-butyl target compound 2c. Unfortunately, removal of the tert-butyl group with sulfuric acid also hydrolyzed the nitrile to the carboxamide 30. Conversion back to the nitrile using TFAA followed by reaction with pyridine in methanol gave 31. Transformation of 31 to target compound 10c was completed via alkylation with cis-3-fluorocyclobutyl mesylate 33 (from alcohol 32) using cesium carbonate and potassium iodide. ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "The R1 phenyl PP matched pairs of the pyridyl PP compounds shown in Table 5 were produced following the route in Scheme 4 and exemplified with compound 15a. In this case we started with bromo PP intermediate 34, reported in our previous publication of CDPKI inhibitors.20 $S_{\\mathrm{N}}2$ displacement of trans-3-(benzyloxy)cyclobutyl mesylate 36 (from alcohol 35 in two steps) with 34 followed by debenzylation produced the cis-3-(benzyloxy)cyclobutyl- $.N$ -pyrazolopyrimidine bromide intermediate 37 which was subjected to addition of 3-(trifluoromethyl)phenol using cesium carbonate and copper chloride to yield PP alcohol 38. Boc-protection of the 4-amino group gave 39 followed by fluorination with DAST with inversion of stereochemistry at the alcohol center ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Scheme 3. Synthesis of 2-Pyridyl-4-CN Ether R1 PP Compounds with Varied R2 Groups (Tables 1 and 4) Exemplified by 2c and ${\\bf10c}^{a}$ ",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/f21d88fc84544f1680517914fbb8923da0ee0d420e99708b89cb025d083433f2.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "aReagents and conditions: (a) 2-bromoisonicotinonitrile, DMSO, $\\mathrm{K}_{2}\\mathrm{CO}_{3},$ $120\\ ^{\\circ}\\mathrm{C},$ $^{12\\mathrm{~h~}}$ ; (b) ${\\mathrm{H}}_{2}{\\mathrm{SO}}_{4},$ $0\\ {}^{\\circ}{\\bf C},$ $0.5\\mathrm{~h~}_{\\cdot}$ ; (c) TFAA, pyridine; (d) pyridine, MeOH; (e) MsCI, TEA, $\\mathrm{DCM},{\\mathrm{;}}$ (f) ${\\mathrm{Cs}}_{2}{\\mathrm{CO}}_{3},$ Kl, DMA, $66\\ ^{\\circ}\\mathrm{C},40\\ \\mathrm{h}$ . ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "then Boc-deprotection gave trans-3-(fluoro)cyclobutyl PP target compound 15a as the direct matched pair of the pyridyl derivative 10a. ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Evaluation of Top Leads. On the basis of the activity profiles of the compounds described above, we chose the top three analogs 3a, 10c, and 6j for further in vitro and in vivo testing. These compounds demonstrated very similar $\\mathrm{IC}_{50}$ values for inhibition of enzyme activity and $\\mathrm{EC}_{50}$ values for inhibition of parasite growth (Figure 3). To confirm the specificity of leads 3a, 6j, and 10c for the Gly gatekeeper feature, we compared the activity against wild-type CDPK1 to a mutant enzyme that altered at Gly128 to Met (G128M), as described previously.15c This mutation resulted in loss of inhibition with all top three PP analogs even when tested at 20 $\\mu\\mathbf{M}$ (Table 6). These results confirm that the inhibitors are selective for Gly gatekeeper kinases and indicate that the inhibition of parasite growth in cell culture is quite likely due to targeting CDPK1. At the doses used in vitro here, it is likely that the main effect of PP inhibitors is to block parasite invasion and egress, as described previously.12,15c In contrast, studies using much higher doses (i.e., several $\\mu\\mathbf{M}_{,}^{\\cdot}$ ) of some PP compounds can disrupt parasite cell division,26 an effect that may be attributable to inhibition of MAPK, which occurs at high concentrations using early PP inhibitors that lacked specificity.27 ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Additionally, we tested the specificity of these PP inhibitors against human c-Src, a kinase that contains Thr at the gatekeeper and that shows intermediate sensitivity to PP inhibitors.28 The $\\mathrm{IC}_{50}$ for inhibition of c-Src was $>20~\\mu\\mathrm{M}$ (Table 6), demonstrating that these PP inhibitors are extremely selective and show $>1000$ -fold increased potency against the parasite enzyme. To further explore the selectivity of 3a and 10c, we screened an extensive panel of 485 human kinases (Thermo-Fisher) with compounds at a single fixed concentration of ${\\mathrm{~1~}}\\mu\\mathbf{M}.$ Compound 3a inhibited five targets (i.e., $\\mathrm{CK}\\varepsilon$ , BRK (PTK6), HGK (MAP4K4), $\\mathrm{TGF}\\beta$ (ALK5), and PKACγ), while 10c only inhibited two host kinases (i.e., $\\mathrm{CK}\\varepsilon$ , BRK (PTK6)) by ${\\sim}50\\%$ (Figure 4, Table S1). These findings indicate that these PP analogs are potent inhibitors of CDPK1 with relatively low off target activity against human kinases. ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "We also tested the 3a, 6j, and 10c against type strains from the three major lineages of T. gondii that are found in North America and Europe.29 All three compounds exhibited similar $\\mathrm{EC}_{50}$ values when tested against this panel of strains (Table 7). No adverse effect on the host cell monolayer was observed across this dilution series. We also tested the potential for these inhibitors to affect the growth or viability of a variety of human cell types including lines isolated from kidney, liver, brain, and gut. There was no observed inhibition of cell growth by these PP compounds, although they enhanced growth slightly for human brain endothelial cells (hCMEC) (Table 8). As expected, the positive control mitomycin C showed significant inhibition of all the cell types. ",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/a09f10586643e9d6cfd6ff71f9508948c9a878602b900afd75a65741c6cfa846.jpg",
+        "img_caption": [
+            "Scheme 4. Synthesis of Phenyl Ether R1 PP Compounds with Varied R2 Groups (Table 5) Exemplified by 15a "
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/0c91b0ad8eb96fafe81698eb54da3b5afe1bb142896d0cbd1a96f7a81c71570c.jpg",
+        "img_caption": [
+            "Figure 3. Inhibition of CDPK1 enzyme activity and parasite growth by lead compounds: (A) structures of three top leads; (B) inhibition of CDPK1 enzyme in vitro; (C) inhibition of parasite growth in HFF cells. Each data point in the dilution series is the average of two technical replicates. Control refers to no compound. Curves were fit using nonlinear regression analysis based on sigmoidal dose−response curves with variable slope. "
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/8b3b82db470bee6d5c948dc45bb6cefe9f5589ad40f7a67b9e76f69778cf0b04.jpg",
+        "table_caption": [
+            "Table 6. In Vitro Activities of Lead Compounds against Select Kinases "
+        ],
+        "table_footnote": [
+            "aMean, $N=3$ independent experiments each with two technical replicates. "
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "In Vitro ADME Properties. To examine the in vitro properties of the lead compounds, we profiled them using a standard set of assays designed to estimate solubility, permeability, and metabolic stability (Table 9). First, all three leads showed good kinetic solubility at $\\mathrm{pH}~7.4$ . They were also highly stable in the presence of human liver microsomes and human hepatocytes, showing low clearance in both assays. All three lead compounds showed minimal susceptibility to aldehyde oxidase, an enzyme involved in hepatic and extra-hepatic phase I metabolism of xenobiotics.30 Finally, all three lead compounds showed good uptake by polarized epithelial MDCK cells and little capacity for efflux in a cell line overexpressing the MDR1 transporter. These properties predict the lead compounds should not be subject to efflux or rapid catabolism in vivo and therefore might have good pharmacokinetic properties. ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Off Target Activity and Potential for Genotoxicity. Although the lead compounds exhibited minimal activity against host kinases, we also wanted to profile them for other potential off-target activity against other host enzymes and receptors. We tested the three leads at a $10\\mu\\mathrm{M}$ concentration against the Safety panel 47 (Eurofins, DiscoverX) that includes human kinases, channels, GPCRs, cyclic nucleotide and calcium signaling pathways, and neurotransmitter activities. All three compounds partially inhibited the kinase Lck (Table 10), although this activity was not seen in the kinome-wide screen. This difference likely reflects the higher concentration of compounds used ( $10~\\mu\\mathrm{M}$ for Discover X vs $\\mathrm{~\\bf~l~}\\mu\\mathbf{M}$ for the kinome wide screen) and differences in ATP (Discover X assays lack ATP while the kinome wide screen was conducted at $K_{\\mathrm{m}}$ for ATP). Additionally, 3a showed modest activity against an antagonist of $\\alpha$ 2A-adrenergic receptor (ADRA2A) (Table 10), an adrenergic receptor that is broadly distributed in the body.31 Antagonists of ADRA2A have been studied for their ability to enhance motor function in rodent and nonhuman primate models of Parkinson disease.31 Inhibition by 3a would only be expected to be an issue in patients also receiving antagonists of this receptor. None of the three compounds showed appreciable inhibition of hERG, a $\\mathrm{K}+$ channel important in cardiac function.32 The lack of activity against hERG channels is notable as other PP analogs that inhibit CDPK1 have previously been found to exhibit this liability.16b ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "All three compounds were negative in a mini-Ames test and for micronucleus formation (Table 10), indicating that they have a low capacity for genotoxicity. ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Finally, we tested the potential for the lead compounds to inhibit several cytochrome P450 enzymes or CYPs, which are involved in detoxification of xenobiotics and metabolism of drugs.33 Compound 3a showed inhibition of CYP1A2 at $^{<1}$ $\\mu\\mathbf{M}$ and CYP2C19 at $<10~\\mu\\mathbf{M}_{;}$ , but otherwise there was minimal effect on these enzymes including on CYP3A4 and CYP2D6 (Table 11), which are responsible for metabolizing most drugs.33 Collectively, these findings indicate that all three lead compounds encompass minimal potential for genotoxicity and a low likelihood for complications related to drug−drug interactions. ",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/2d536bca19f951eab3505f24d9659c15e32be85de315b3b279b8ed11c35e761d.jpg",
+        "img_caption": [
+            "Figure 4. Inhibition of human kinase targets by 3a based on a human kinome-wide screen (ThermoFischer). Compounds were tested in duplicate at $\\mathrm{~1~}\\mu\\mathbf{M}$ using ATP levels that matched the kinase $K_{\\mathrm{m}}$ or using Lantha-Screen binding assays in the absence of ATP. Targets shown in red were inhibited by ${\\sim}50\\%$ . See Table S1 for further details. The kinome tree was generated using KinMap,42 and the image was reproduced courtesy of Cell Signaling Technology, Inc. (www.cellsignaling.com). "
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/204920380519f99515601dba026abd8f4082f549fe976c7b53c70b0f0d9ca696.jpg",
+        "table_caption": [
+            "Table 7. Inhibition of Parasite Growth in Vitro by Lead Compounds "
+        ],
+        "table_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "In Vivo Pharmacokinetics. In order to estimate the potential metabolic stability of the top leads in different species, we compared the metabolism in liver microsomes from mouse, rat, rabbit, minipig, and dog. Compound 3a showed low metabolism in mouse, rat, and minipig, with higher levels in dog and rabbit, relative to the normal single pass rate of clearance due to hepatic circulation (Table S2). Compound 10c showed low metabolic clearance in microsomes for all species (Table S2). Compound 6j showed high metabolism in mouse but was stable in the other species (Table S2). Because these in vitro assays only estimate the potential for clearance in vivo, we also performed pharmacokinetic (PK) analysis over an $^{8\\mathrm{{h}}}$ time course following a single $10~\\mathrm{mg/kg}$ oral dose vs $3\\mathrm{mg/}$ kg iv dose. We chose mouse for these studies since this species is the most versatile model for showing efficacy against toxoplasmosis. Compounds 3a and 10c showed similar maximum concentration in plasma $\\left(C_{\\mathrm{max}}\\right)$ and area under the curve (AUC) values, although 3a had a slightly longer half-life (Table 12). By comparison, 6j showed high clearance and corresponding lower $C_{\\mathrm{max}}$ and plasma AUC. All three compounds showed moderate to high bioavailability $(\\%~F)$ and high unbound fractions in plasma and in brain and importantly exhibited favorable CNS/plasma ratios indicating they are brain penetrant (Table 12). Finally, compounds 3a and 10c showed no adverse effects when dosed at $600~\\mathrm{mg/kg}$ for 7 consecutive days in mouse (data not shown). Although we have not performed any studies on the safety of PP compounds during pregnancy, prevention of congenital infection is an important unmet medical need. Hence, future studies warrant evaluation of these compounds for safety and efficacy in congenital transmission models of toxoplasmosis. ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Efficacy against Acute Infection. Due to its better performance in PK and relatively low potential for toxicity, we chose compound 3a for further PK and efficacy studies. We compared the clearance of 3a in groups of mice that were dosed at 3, 10, and $30~\\mathrm{mg/kg}$ given once by oral gavage. The subsequent free plasma levels were plotted relative to the free $\\mathrm{EC}_{50}$ and multiples of this value (Figure 5B). From these studies, it was evident that only a dose of $30\\mathrm{\\mg/kg}$ was sufficient to maintain the plasma levels above the $\\mathrm{EC}_{50}$ for ${\\sim}8$ h (Figure 5B), and in all dosing schemes 3a dropped to undetectable levels by $24\\mathrm{~h~}$ (data not shown). On the basis of these PK results, we reasoned that it would likely be necessary to provide either a higher total dose or repeated dosing at a level of at least $30~\\mathrm{mg/kg}$ to protect against toxoplasmosis. ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "On the basis of the anticipated PK profile, we designed a trial to evaluate 3a for its ability to control acute toxoplasmosis in the laboratory mouse. Mice are a natural host for T. gondii, aMea $\\mathrm{n}\\pm\\mathrm{SD}$ , $N\\geq3$ independent experiments, each with technical replicates. ",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/b0c54133da1ac544025ee99e9141ccd5ecfc81d45ecb62d8f949a7593972aea8.jpg",
+        "table_caption": [
+            "Table 8. Effect of Lead Compounds on Replication of Human Cell Linesa "
+        ],
+        "table_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/f3ba4282a98cb880184df9fe441e0560d7034f7020ee7de459621656315894ad.jpg",
+        "table_caption": [
+            "Table 9. In Vitro Metabolism of Lead Compounds "
+        ],
+        "table_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/d4b3979b2fe8bc995bc8c97c5b48441a63e03141532c6503a0907d27483c062a.jpg",
+        "table_caption": [
+            "able 10. In Vitro Toxicity and Genotoxicity Analysis of Lead Compound "
+        ],
+        "table_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/1a8fa4e82b90aef94d298bfbcc836d8c0ee1fe7e860bccd78311f0cffcc9933b.jpg",
+        "table_caption": [
+            "Table 11. Inhibition of Cytochrome P450 Enzymes by Lead Compounds "
+        ],
+        "table_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/77ee7448fbbae7d36908726cd03a0930c11064b0e4bdcab0006823f793858e4a.jpg",
+        "table_caption": [
+            "Table 12. In Vivo Pharmacokinetic (PK) Properties of Lead Compounds "
+        ],
+        "table_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "and they recapitulate the acute and chronic phases of infection that are seen in humans and other species.1 Laboratory mice are somewhat more susceptible than other animals, and in particular, they are highly susceptible to type I strains, which are lethal at a very low inoculum in immunocompetent outbred and inbred mice.34 Hence, challenge with type I strains offers a stringent test of the ability of compounds to prevent infection. We inoculated mice ip with 3000 tachyzoites of the RH strain, which is the equivalent of $>1000$ times the lethal dose34 (Figure 5A). Infection was tracked using bioluminescence from a firefly luciferase expressing strain of the parasite.35 Following infection, the parasites amplified rapidly and spread to all of the major organs, leading to a strong luciferase signal in the peritoneum (Figure 5A). Treatments of mice with a total daily dose of $60~\\mathrm{mg/kg},$ po, of 3a using different dosing paradigms of $60~\\mathrm{mg/kg}$ once a day (QD), $30~\\mathrm{mg/kg}$ twice a day (BID), or $15~\\mathrm{mg/kg}$ four times per day (QID) for a total of 7 days were all effective at reducing parasite expansion and dissemination, as shown by bioluminescence measurements (Figure 5C) and prevention of death in the majority of animals (Figure 5D). To determine if animals were cured by treatment, the brain and lungs of surviving animals were homogenized and inoculated into recipient naïve animals that were subsequently followed without additional drug treatment. Because this strain is highly virulent in mice, inoculation of even a single parasite of the type I RH strain is expected to lead to death in the recipient.34 Bioluminescence imaging and survival assays revealed that all of the animals inoculated with tissues from mice treated 60 $\\mathrm{mg/kg}$ QD succumbed to infection, whereas $20\\%$ of those inoculated with tissues from mice treated with $30~\\mathrm{mg/kg}$ BID and $15~\\mathrm{mg/kg}$ QID survived (Figure 5D). For these results, we conclude that more frequent dosing at lower concentration provides equal protection from survival and greater frequency of cure. ",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Efficacy in the Immunocompromised Mouse Model. One of the key target populations for treatment of toxoplasmosis is immunocompromised patients such as those with HIV infection that have developed AIDS.36 To simulate this defect in the murine model, we used a previously described immunocompromised mouse that lacks IFN-γ receptors and hence is unable to control infection with a type II strain of the parasite, which is less virulent and prone to developing chronic infection in wild type mice.20 On the basis of the PK studies and efficacy in immune competent mice described above, we reasoned that higher doses would likely be required for control in the absence of a functional immune system. As such, we tested the PK in mice following an oral dose of 60, 90, or 120 $\\mathrm{mg/kg}$ twice daily over a $24\\mathrm{h}$ period. Analysis of plasma levels indicate that the compound reached a peak that exceeded the $\\mathrm{EC}_{90}$ (free concentration) but that the concentration dropped below the $\\mathrm{EC}_{50}$ by 8 or $12\\mathrm{~h~}$ (Figure 6B). To compare the efficacy of these doses in preventing reactivation of toxoplasmosis, we treated immunocompromised mice using the model described in Figure 6A. Ifngr1 $^{-/-}$ mice were orally infected with tissue cysts of the type 2 strain ME49 expressing firefly luciferase and maintained by treatment with sulfadiazine, which suppresses tachyzoite growth but does not affect the development of tissue cysts.37 All inoculated animals became infected as shown by visible signs of illness and verified by positive ELISA titer at 3 weeks postinfection (Figure S1A). At 22 days postinfection, treatment with sulfadiazine was discontinued, and $^{48\\mathrm{~h~}}$ later the animals were treated with compound 3a at $60~\\mathrm{mg/kg}$ by oral gavage BID for 8 or 21 days. Control animals lost weight and succumbed to infection by day 12 (Figure 6C,D). Animals treated with $60~\\mathrm{mg/kg}$ for 8 days eventually succumbed to infection, although they lasted significantly longer than controls (Figure 6D). Treatment with $60\\mathrm{\\mg/kg}$ for 21 days led to significantly prolonger survival, and two animals survived beyond 30 days (Figure 6D), after which they gained weight (Figure 6C), suggesting they were cured of infection. The brain of these surviving animals was homogenized and injected into recipient $\\mathrm{Ifngr1^{-/-}}$ mice that were not treated with compound. These recipient animals, which are normally highly susceptible and unable to control infection, remained seronegative (Figure S1B,C), confirming that the donor mice had been cured during treatment. In a follow-up study, we repeated this trial using animals that were treated with 60, 90, or $120~\\mathrm{mg/kg}$ BID for 8 days (Figure S2). The survival of mice treated for 8 days with either 60, 90, or $120~\\mathrm{mg/kg}$ was similar, while greater survival was achieved with treatment at $60~\\mathrm{mg/kg}$ for 21 days (Figure 6E). Collectively, these findings indicate that the efficacy of 3a is driven primarily by total time of exposure over an extended time period. This result may reflect the fact that CDPK1 inhibitors are expected to act to block egress and invasion but may not have an effect on bradyzoites while they are intracellular. ",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/d37a8431db1649494ae3ef0bf06ef632e685a5a24769f7e2c6739ed98b89d93f.jpg",
+        "img_caption": [
+            "Figure 5. In vivo pharmacokinetics and efficacy of compound 3a in protecting against acute toxoplasmosis. (A) Model of experimental design. (B) PK analysis of escalating doses of 3a delivered by oral gavage to adult female mice. Values plotted are free plasma levels based on estimation of $\\%$ nonbound to serum proteins ( ${\\mathit{n}}=3$ animals per group). For comparison the nonbound fractions equivalent to the $\\mathrm{EC}_{50},$ $3\\times\\mathrm{EC}_{50},$ and $\\mathrm{EC}_{90},$ based on in vitro growth inhibition in HFF cells, are shown. (C) Groups of outbred female CD1 mice were infected with 3000 tachyzoites of the type 1 RH strain by ip inoculation, and compound 3a was administered as shown by oral gavage for seven successive days beginning $24\\mathrm{h}$ after infection (day 0). The control group had 9 animals and the treatment groups each had 12 animals. Expansion of parasite numbers and dissemination was monitored by bioluminescence imaging. Image shown is from 5 days postinfection. (D) Survival curves for animals inoculated and treated as described in (C). Control animals in (C) and (D) received vehicle only ( $0.5\\%$ CMC). (E) Surviving animals in (D) were sacrificed at day 15, and homogenates of lung and brain were injected into naïve recipient mice (1 recipient for each surviving animal) that were not further treated with compound. Survival curves of recipient mice are shown. Negative control animals were inoculated only with vehicle control ( $0.5\\%$ CMC). "
+        ],
+        "img_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/069395c7d2e3a183945f107b294baad3ef2b1a05be88ff4ae91123e41471bb12.jpg",
+        "img_caption": [
+            "Figure 6. Efficacy of 3a in protecting against reactivation of chronic infection in immunocompromised mice. (A) A mixture of male and female $\\mathrm{Ifngr1^{-/-}}$ mice was infected with five tissue cysts of the type II ME49 strain by oral gavage. Mice were given sulfadiazine $\\left(0.25~\\mathrm{g/L}\\right)$ in drinking water) from day 3 to day 22 to suppress tachyzoite growth and prevent death during the acute phase. At $^{48\\mathrm{~h~}}$ after removal of sulfadiazine, compound 3a was administered by oral gavage at the doses indicated for 8 or 21 successive days. (B) PK of animals dosed orally with 60, 90, or 120 $\\mathrm{mg/kg}$ BID ( ${\\mathit{n}}=3$ animals per group). Free plasma levels are plotted relative t $\\mathsf{E C}_{50},3\\times\\mathsf{E C}_{50},$ nd $\\mathrm{EC}_{90}$ levels. (C) Weight loss following removal of sulfadiazine and administration of 3a. (D) Survival following val of sulfadiazin nd administration of 3a at the indicated doses. Control animals received vehicle control ( $0.5\\%$ CMC, $0.1\\%$ . For (C) and (D), 8 animals were used for the control and 6 animals each for the treatment groups. (E) Comparison of percent survival vs time and concentration of treatment with 3a ( ${\\mathit{\\check{n}}}=6$ animals per group). "
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "CONCLUSIONS ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "We generated several series of novel PP CDPK1 inhibitors to explore SAR and metabolism profiles of an expanded range of analogs. Modification of the $\\mathbb{R}_{1}$ position to include pyridyl rings with $\\mathbf{N}$ in the 2-position allowed appending various functional groups on the 5-position of the ring that imparted greater metabolic stability including Cl, $\\mathrm{CF}_{3},$ and CN groups. Interestingly, an OH group in the same position was tolerated, likely due to a different binding mode of the pyridyl ring. Addition of small cycloalkyl groups or other substituted small heterocyclic groups at $\\mathbb{R}_{2}$ also improved potency and stability. By several rounds of optimizing potency, selectivity, and metabolic profiles, we selected the set of top leads 3a, 6j, and 10c for further characterization of their safety profile and metabolism in different species. Of the three top leads, compound 3a was chosen for advanced evaluation in murine models of toxoplasmosis. Lead PP 3a prevented lethal acute infection, prolonged the survival of immunocompromised mice, and resulted in cure of chronic infection in ${\\sim}25\\%$ of animals. Collectively, our studies and their findings identify not only promising new PP CDPK1 inhibitors and SAR but also important models and parametric analysis for further evaluation of inhibitors for advancement to clinical trials for treatment of both acute and chronic toxoplasmosis. ",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "EXPERIMENTAL SECTION ",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Synthetic Chemistry. All synthetic chemistry and DMPK were performed at WuXi App Tec at their China facilities in Tianjin and Shanghai. Proton NMR spectra were recorded on a Varian $400~\\mathrm{{MHz}}$ NMR with chemical shifts $\\delta$ recorded in ppm relative to TMS. LCMS were taken on a quadrupole mass spectrometer on Shimadzu LCMS 2010 (column Sepax ODS $50\\ \\mathrm{mm}\\times2.0\\ \\mathrm{mm}$ , $5\\mu\\mathrm{m}$ ) or Agilent 1200 HPLC, 1956 MSD (column Shim-pack XR-ODS $30\\ \\mathrm{mm}\\times3.0\\ \\mathrm{mm},$ $2.2\\ \\mu\\mathrm{m}\\mathrm{,}$ ) operating in ES $\\left(+\\right)$ ionization mode. All final compounds were greater than $95\\%$ purity based on HPLC $\\mathrm{UV\\%}$ AUC as determined at 214, 254, and $280\\ \\mathrm{nm}$ wavelengths. Structures were confirmed by $^{1}\\mathrm{H}$ NMR and $\\mathbf{LC}/\\mathbf{MS}$ . Final compounds in this manuscript are not known to interfere with the assays herein (i.e., they are not PAINS). Detailed synthetic chemistry and analytical analyses are found in the Supporting Information. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Parasite Strains and Culture. In vitro growth inhibition experiments were conducted with the 2F clone of the type I RH strain $T.$ . gondii, a transgenic line that expresses $\\beta$ -galactosidase.22 We also used additional $T$ . gondii strains representing type 2 (ME49Δhx::FLUC strain) and type 3 lineages (CTG-FLUX), that were derived independently, as described previously.38 The type 2 ME49Δhx::FLUC strain was used for the reactivation studies in immunocompromised mice, as described below. Tachyzoites of each strain were grown in monolayers of human foreskin fibroblasts (HFF, obtained from the Boothroyd laboratory at Stanford University) maintained in complete medium (DMEM containing $10\\%$ FBS, 10 mM glutamine, and $10\\mu\\mathrm{g/mL}$ gentamycin) incubated at $37^{\\circ}\\mathrm{C}$ in $5\\%$ $\\mathrm{CO}_{2}$ . In vitro cultures were shown to be mycoplasma negative using the e-Myco plus kit (Intron Biotechnology). ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Enzyme Expression and Purification. Full-length T. gondii wild type or Gly128 Met (G128M) mutant CDPK1 enzymes were expressed with a C-terminal His tag in $\\mathrm{pET}22\\mathrm{b}(+)$ , as described previously.12 For protein purification, CDPK1 was expressed BL21 (DE3)V2RpAcYc-LIC+LamP E. coli, which contains the LamP phosphatase. As a control, we also expressed cDNA fragment encoding human Src (hSrc) kinase domain in BL21, as described previously.20 Following overnight growth in Terrific Broth at $37\\ ^{\\circ}\\mathrm{C},$ bacterial cultures were diluted 1:100 and grown for $3\\mathrm{{h}}$ at $37^{\\circ}\\mathrm{C}$ (OD $=\\ 0.6\\mathrm{-}0.8\\rangle$ ), then induced with $0.3~\\mathrm{\\miA}$ IPTG during overnight growth at 15 or $30~^{\\circ}\\mathrm{C}.$ . Cells were lysed using CellLytic B cell lysis reagent (Sigma-Aldrich) and soluble proteins purified using HISselect nickel affinity gel. Purified proteins were dialyzed against storage buffer (i.e., $50~\\mathrm{mM}$ Tris-HCL, pH 7.5, $150\\ \\mathrm{mM\\NaCl}_{\\prime}^{\\bar{\\mathrm{v}}0\\ \\mathrm{mM\\NaCl}\\bar{\\mathrm{v}}}$ and stored in $25\\%$ glycerol containing $0.5\\ \\mathrm{mM}$ DTT at $-80~^{\\circ}\\mathrm{C}.$ . Protein purity and concentrations were determined by SDS−PAGE and staining with Coomassie Blue (Invitrogen). ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Enzyme Assays. CDPK1 activity was monitored based on phosphorylation of syntide-2 peptide (Callbiochem) that was detected using mAb MS-6E6 (MBL Intl. Corp.) using an ELISA protocol described previously. Reactions were conducted at $30~^{\\circ}\\mathrm{C}$ for $20{-}40\\ \\operatorname{min}$ in $20~\\mathrm{mM}$ HEPES, $\\mathrm{pH}~7.5$ , $10\\ \\mathrm{mM}$ $\\displaystyle\\mathrm{\\mathrm{MgCl}}_{2},$ $1\\ \\mathrm{mM}$ ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "DTT, $2.5\\mathrm{\\mM\\CaCl_{2}},$ $0.1\\mathrm{\\mM}$ EGTA, $0.005\\%$ Tween 20. Kinase reactions included $25\\mu\\mathrm{M}$ ATP (the $K_{\\mathrm{m}}$ for the enzyme) using $25~\\mathrm{nM}$ of kinase per reaction. For comparison of the inhibition of wild type and G128M mutant CDPKA, $100\\ \\mathrm{nM}$ enzyme was used for both enzymes as the mutant enzyme is slightly less active. To determine the potency of inhibitors, duplicate wells were treated with a range of compound concentrations from $20~\\mu\\mathrm{M}$ to $0.13\\mathrm{\\nM}$ containing $1\\%$ DMSO final, as described previously.20 Individual $\\mathrm{IC}_{50}$ values were determined from three or more independent biological replicates each containing two technical replicates. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Human Src activity was monitored by phosphorylation of the Abltide peptide (EAIYAAPFAKKK, Enzo Life Sciences) that was detected using a monoclonal antibody to phosphotyrosine (Sigma) using an ELISA protocol similar to that used for CDPK1 above. Kinase reactions were conducted in $50~\\mathrm{mM}$ Tris-HCl, pH 7.5, $10~\\mathrm{mM}$ $\\mathrm{{MgCl}}_{2}$ $2.5\\mathrm{nM}$ $\\mathrm{MnCl}_{2},$ $0.2\\mathrm{mM}$ DTT, $0.5\\mathrm{mM}$ EGTA. Reactions were conducted using $\\dot{\\mathbf{\\upmu}}\\mathbf{M}$ ATP (the $K_{\\mathrm{m}}$ for the enzyme) or $1~\\mathrm{mM}$ ATP (physiological) using $75~\\mathrm{nM}$ kinase per reaction. Compounds were tested at $10~\\mu\\mathbf{M}$ in duplicate, in two biological replicates. For compounds that showed ${>}50\\%$ inhibition at $10~\\mu\\mathrm{M},$ serial dilutions from $10\\mu\\mathrm{M}$ to $0.5~\\mathrm{{nM}}$ were tested in duplicate to derive $\\mathrm{IC}_{50}$ values. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "In Vitro Growth Assays. $\\beta$ -Galactosidase Assays. Parasite growth inhibition assays were conducted using the type I RH strain, 2F clone that expresses bacterial $\\beta$ -galactosidase $(\\beta\\mathrm{-gal)}$ , as described previously.22 Compounds dissolved in DMSO as $10~\\mathrm{mM}$ stocks were stored at $-80~^{\\circ}\\mathrm{C}$ until use and then diluted in medium to reach final concentrations. HFF monolayers grown in 96 well plates were inoculated with $5\\times10^{2}$ parasites containing dilutions of compounds ranging from $10~\\mu\\mathrm{M}$ to $0.17~\\mathrm{nM}$ plus $0.1\\%$ DMSO (or $0.1\\%$ DMSO alone). The plates were centrifuged at $300g$ for $\\mathsf{S}\\operatorname*{min}$ and returned to culture at $37\\ ^{\\circ}\\mathrm{C},$ $5\\%$ $\\mathrm{CO}_{2}$ for $^{72\\mathrm{~h~}}$ . At the end of the incubation period, the monolayer was lysed in $1\\%$ Triton X-100 and $\\beta$ -gal activity monitored using $1\\ \\mathrm{mM}$ chlorophenol red- $\\boldsymbol{\\cdot}\\beta$ -D-galactopyranoside by absorption at $570\\ \\mathrm{nm},$ as described previously.15c Reported $\\mathrm{EC}_{50}$ values were determined from three or more independent biological replicates, each containing two technical replicates. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Luciferase Assays. HFF monolayers grown in 96 well plates were inoculated with $5\\times10^{3}$ of luciferase expressing parasites containing dilutions of compounds ranging from $10~\\mu\\mathrm{M}$ to $0.51\\ \\mathrm{nM}$ plus $0.1\\%$ DMSO (or $0.1\\%$ DMSO alone). Parasites were allowed to replicate for $^{72\\mathrm{~h~}}$ prior to preparation for luciferase assay. The luciferase assay was conducted using the luciferase assay system (Promega, E1501) using the following processing steps: After $^{72\\mathrm{~h},}$ culture medium was removed and $40~\\mu\\mathrm{L}$ of $1\\times$ cell culture lysis buffer $(1\\times\\mathrm{\\CCLR},$ Promega, E1531) was added to each well and incubated for $10~\\mathrm{{min}}$ at room temperature (RT) with gentle shaking. Plates were read with a Cytation3 imaging multimode plate reader (Biotek) using the following protocol: injection of $100~\\mu\\mathrm{L}$ of luciferase assay reagent per well, shake $0{:}01\\ \\mathbf{s},$ and read for $10\\ s.$ . Reported $\\mathrm{EC}_{50}$ values were determined from three or more independent biological replicates, each containing two technical replicates. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Host Toxicity Assays. The following host cell lines were obtained from ATCC (https://www.atcc.org/): hCMEC cells D3, brain endothelium cells (ATCC CCL-239); HepG2, hepatocellular carcinoma cells (ATCC HB-8065); SH-SY5Y, neuroblastoma cells (ATCC CRL-2266); Caco-2, intestinal epithelium cells (ATCC HTB-37); MDCK (NBL-2), canine kidney cells (ATCC CCL-34). Cells were grown in medium according to ATCC recommendation and maintained at $37\\ ^{\\circ}\\mathrm{C}_{\\mathrm{\\cdot}}$ $5\\%$ $\\mathrm{CO}_{2}$ . ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Host cell lines were plated at 15 000 cells/well and grown in recommended medium (ATCC) and allowed to adhere for $^{4\\mathrm{~h~}}$ at 37 ${}^{\\circ}\\mathrm{C},5\\%\\mathrm{CO}_{2}$ . Compounds diluted to $20\\mu\\mathrm{M}$ in $0.2\\%$ $\\left(\\mathbf{v}/\\mathbf{v}\\right)$ DMSO, or DMSO alone, were then added, and cells were incubated for an additional $^{72\\mathrm{~h~}}$ . Following the incubation period, samples were evaluated using a cell proliferation assay (CellTiter 96 Aqueous NonRadioactive Cell Proliferation Assay, Promega Corporation). As a positive control, mitomycin C $(20~\\mu\\mathrm{M})$ was included in each plate. Reported values were derived from three independent experiments with two technical replicates each. ",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Animal Studies. Animals were obtained from Jackson Laboratories, or bred locally, and housed at Washington University in accordance with the U.S.A. Public Health Service Policy on Humane Care and Use of Laboratory Animals. Animals were maintained in an Association for Assessment and Accreditation of Laboratory Animal Care approved facilities, and studies were approved by the Institutional Animal Studies Committee at the School of Medicine, Washington University in St. Louis. Animal studies conducted at WuXi AppTec in China and Evotec in the U.K. were performed in accordance approved institutional and national guidelines at these respective sites. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Chronic Infections in Mice. CD-1 outbred mice were inoculated with 200 tachyzoites of the type 2 ME49Δhx::FLUC line that had been grown in HFF cells in vitro, as described above. At 1−2 months after infection, chronically infected mice were euthanized and brains removed and homogenized by mincing using $20{-}22$ gauge needles. A portion of the homogenate was fixed in formalin, stained with Dolichos biflorus lectin (DBL) conjugated to FITC, and cysts were counted by microscopic examination, as described previously.39 Cysts from chronically infected CD-1 mice were used to initiate infections in recipient mice by oral gavage. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "PK Studies. Initial PK studies were conducted by Evotec Manchester UK in accordance with institutional guidelines. The compound 3a was dissolved in $0.5\\%$ carboxymethyl cellulose (CMC) and administered to fasted female CD1 mice (6−8 weeks old) by oral gavage $\\left(10\\mathrm{\\mg/kg}\\right)$ or iv inoculation $\\left(3\\mathrm{\\mg/kg}\\right)$ . Animals were sampled at 0.5, 1, 4, 8, and $24\\mathrm{~h~}$ . Plasma concentrations were determined by LC−MS/MS in comparisons to standards, and data were analyzed using Phoenix WinNonlin 6.3 with a linear/log trapezoidal calculation method. No adverse effects were observed during the study. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Subsequent PK studies were conducted by WuXi AppTech, China, in accordance with institutional guidelines. Adult female mice were orally gavaged with 3a in $0.5\\%$ CMC $0.1\\%$ Tween 80 at doses of 60, 90, and $12\\mathrm{{0}\\ m g/k g}$ at time 0 and $^{12\\mathrm{~h~}}$ later. Animals were sampled by drawing plasma at $0.5,2,12,13,16,20,$ and $24\\ \\mathrm{~h~}$ . Plasma concentrations were determined by LC−MS/MS in comparisons to standards, and data were analyzed using Phoenix WinNonlin 6.3 with a linear/log trapezoidal calculation method. No adverse effects were observed during the study. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Acute Challenge Model. Acute challenge studies were conducted by the Evotec Manchester UK in accordance with institutional guidelines. Adult female CD1 mice (8−10 weeks old) were inoculated ip with 3000 tachyzoites of a type $\\textsc{i}\\textsc{r}$ strain expressing firefly luciferase,35 which had been grown in vitro in HFF monolayers as described above. At $24\\mathrm{~h~}$ postinfection, animals were treated by oral gavage $\\mathrm{~\\'~}100{-}200~\\mu\\mathrm{L}$ total volume) with compounds diluted in $0.5\\%$ CMC for 7 consecutive days. Twelve animals were used for each group treated with compounds, and nine animals received vehicle only as a control. Animals were monitored for weight loss (and sacrificed when weight loss reached $>20\\%$ , body temperature dropped below $34~^{\\circ}\\dot{\\mathrm{C}}$ or they were unable to reach food or water) and imaged for bioluminescence as described below. At 15 days postinfection, lung and brain tissues from surviving animals were removed, homogenized, and $0.1~\\mathrm{mL}$ of homogenate was injected ip into recipient CD1 mice that were not treated with compounds. Recipient animals were followed for weight loss, bioluminescence, and survival, as described above. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Chronic Reactivation Model. Studies using the chronic infection model were conducted at Washington University using a previously described model to monitor the ability of compounds to prevent reactivation of toxoplasmosis.40 Male or female $\\mathrm{Ifngr1^{-/-}}$ mice (the proportion of each was roughly $50/50$ and they were divided equally by sex among the groups) were orally infected with 5 cysts of the type 2 ME49Δhx::FLUC line, obtained from the brains of chronically infected wild type CD-1 mice. Animals were treated with sulfadiazine $(0.25\\ \\mathrm{g/L}$ in the drinking water) from day 3 to day 22. Animals were tested to confirm infection by collecting blood at 21 days and testing using T. gondii antigen-specific ELISA, as previously described.41 Animals that did not have strongly positive titers (i.e., $\\mathrm{OD}\\geq0.8$ ) ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "were removed from the experiment. At $^{48\\mathrm{~h~}}$ after removal of the sulfadiazine, compounds (dissolved in $0.5\\%$ CMC, $0.1\\%$ Tween 80) were administered by oral gavage for a total of 8 or 21 days. Animals were monitored for weight loss, bioluminescence imaging, and survival for 30 days. At the end of 30 days, surviving animals were sacrificed humanely and the brains removed and homogenized. A portion of each brain (generally $20\\%$ ) was inoculated into Ifngr1−/− mice, and the recipients were monitored for infection by tracking signs of illness, mortality, and serological conversion at 30 days postinoculation. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Bioluminescence Imaging. Mice were anesthetized by inhalation with $2\\%$ isoflurane and injected ip with D-luciferin (Biosynth AG) (stock $15\\ \\mathrm{mg/mL},$ administered as $10~\\mu\\mathrm{L}$ per gram of body weight) just prior to imaging. Animals were monitored for bioluminescence using a Xenogen IVIS200 instrument. Data were analyzed using the Xenogen Living Image software (Caliper Life Sciences). ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Kinetic Solubility. Kinetic solubility analysis was conducted by WuXi AppTec, China. Compounds were dissolved at $10\\ \\mathrm{\\mM}$ in DMSO and diluted to $200~\\mu\\mathbf{M}$ in $50~\\mathrm{mM}$ phosphate buffer, $\\mathrm{pH}7.4$ $2\\%$ DMSO final). After incubation for $24\\ \\mathrm{~h~}$ at a controlled temperature at $25^{\\circ}\\mathrm{C},$ undissolved material was separated by filtering. The filtrate was analyzed by HPLC equipped with UV. Kinetic solubility was calculated based on comparison with external standards and expressed in $\\mu\\mathbf{M}.$ ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Protein Binding Studies. Protein binding studies were performed by WuXi AppTech, China. Compounds (final concentration $2~\\mu\\mathbf{M}$ in $0.5\\%$ DMSO) were added to plasma, and protein binding was tested by equilibrium dialysis. Plasma samples containing test and control compounds $\\left(2\\mu\\mathrm{M},150\\mu\\mathrm{L}\\right)$ were added to the donor sides, and $150~\\mu\\mathrm{L}$ dialysis buffer was added to the receiver sides of a HTD device (HTDialysis LLC, Gales Ferry, CT, USA). The plate was then rotated at approximately $100~\\mathrm{rpm}$ in a humidified incubator with $5\\%$ $\\mathrm{CO}_{2}$ at $37~^{\\circ}\\mathrm{C}$ for $^{4\\mathrm{~h~}}$ . At the end of the dialysis period, samples $(50\\mu\\mathrm{L})$ were taken from both the donor side and the receiver side of the dialysis device and analyzed by LC/MS/MS. Values were reported as $\\mathrm{ng/mL}$ and converted to $\\%$ of protein bound. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Plasma to Brain Ratio. Determination of the ratio of plasma to brain levels was conducted by WuXi AppTech, China. Adult female CD1 mice were given compounds by oral gavage at a single dose of 10 $\\mathrm{mg/kg}$ suspended in $0.5\\%$ CMC. At $^{8\\mathrm{~h~}}$ postinoculation, animals were euthanized and plasma (EDTA-K2 collection) and brain tissue recovered. Blood was collected form the saphenous vein into EDTAK2 tubes, centrifuged for $15\\mathrm{\\min}$ at $4~^{\\circ}\\mathrm{C},$ and plasma was collected. Following removal of the brain, it was blotted on filter paper, weighed, and homogenized in $4\\times$ volumes of water using a polytron at $4~^{\\circ}\\mathrm{C}$ . Homogenates were placed on dry ice until analysis. Compound concentrations were determined from the supernatants after protein precipitation by LC/MS/MS in comparison to standards expressed as $\\mathrm{ng/mL}$ for plasma and $\\mathrm{ng/g}$ for tissue homogenates. The brain/plasma ratio was calculated as [individual brain concentration $\\left(\\mathrm{ng/g}\\right)]/$ [individual plasma concentration $\\left(\\mathrm{ng/mL}\\right)$ ]. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Microsome Stability Assay. Microsome stability assays were conducted by WuXi AppTech, China. Compounds were prepared at $10~\\mu\\mathrm{M}$ in $1\\%$ DMSO in $100~\\mathrm{mM}$ potassium phosphate buffer (PB). Compounds $\\left(10~\\mu\\mathrm{L}/\\mathrm{well}\\right)$ were added to 96-well plates containing microsomes $\\mathrm{80}\\mu\\mathrm{L}/\\mathrm{well})$ diluted with $100~\\mathrm{mM}$ PB to a final protein concentration of $0.5~\\mathrm{mg/mL}$ . The plates were preincubated in a $37^{\\circ}\\mathrm{C}$ water bath for $10\\mathrm{~m~}$ followed by addition of $10\\mu\\mathrm{L},$ /well $10\\mathrm{\\mM}$ NADPH ( $\\beta$ -nicotinamide adenine dinucleotide phosphate, final concentration of $1\\mathrm{\\mM}$ ). Plates were incubated for $5,\\ 10,$ 20, 30, $60~\\mathrm{{min}}$ and stopped by addition of $300\\mu\\mathrm{L}/\\mathrm{well}$ of stop solution. The plates were then sealed and shaken for $10~\\mathrm{min}$ prior to centrifugation at $4000~\\mathrm{rpm}$ , $4~^{\\circ}\\mathrm{C}$ for $20~\\mathrm{min}$ , and the supernatant was analyzed by LC−MS/MS. Stability of compounds was expressed as intrinsic clearance $\\left(\\mathrm{Cl}_{\\mathrm{int}}\\right)$ in $\\mathrm{m\\dot{L}\\ m i n^{-1}\\ k g^{-1}}$ . ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "Hepatocyte Stability Assay. Hepatocyte stability assays were conducted by WuXi AppTech, China. Cryopreserved human hepatocytes were thawed, suspended in Williams’ medium $\\operatorname{E},$ and diluted to a final concentration of $0.5~\\times~10^{6}$ cells/mL. Cell suspensions ( $198\\ \\mu\\mathrm{L}/\\mathrm{well})$ were added to all 96-well plates followed by the addition of $2\\mu\\mathrm{L}$ /well control or test compounds $(1.0\\mu\\mathrm{M},1\\%$ DMSO final). Plates were placed in a $95\\%$ humidified, $5\\%$ $\\mathrm{CO}_{2}$ incubator at $37~^{\\circ}\\mathrm{C}$ and $800~\\mathrm{rpm}$ to initiate the reactions. At timepoints $s,$ 10, 20, 30, $60~\\mathrm{{min},}$ plates were removed from the incubator, and $20\\ \\mu\\mathrm{L},$ /well of the corresponding sample was transferred to a quenching plate containing $80~\\mu\\mathrm{L}/\\$ well of stop solution. The plates were then sealed and shaken for $10\\ \\mathrm{min}$ prior to centrifugation at $4000~\\mathrm{rpm}$ and $4~^{\\circ}\\mathrm{C}$ for $20~\\mathrm{min}$ . Supernatants were analyzed by $\\mathrm{LC-}$ MS/MS analysis. Stability of compounds in the presence of hepatocytes was expressed as the rate of loss of the parent compound in $\\mathbf{\\bar{(mL/min)}}/10^{6}$ cells. ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "MDCK Uptake and Efflux. Compounds were tested by $\\mathrm{{WuXi}}$ AppTec for bidirectional permeability and efflux in MDCK cells expressing the human MDR1 efflux pump. MDR1-MDCK II cells at passage number 21 were seeded on 96-well transport inserts and cultured for 7 days before being used for the transport experiment. Compounds were added at $2.0\\mu\\mathrm{{M}}$ final concentration to the apical vs basolateral side of transport inserts. Samples were taken at 0 and 150 min from both the donor and receiver chambers and analyzed by LC/ MS/MS. Transfer from apical to basolateral (A to B) and basolateral to apical (B to A) direction was expressed as the mean rate of exchange per ${10}^{6}$ cells in $\\mathrm{cm}/\\mathrm{s}$ and the ratio used to determine the efflux ratio. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Aldehyde Oxidase. The susceptibility of compounds to aldehyde oxidase (AO) in human liver S9 fraction was tested by WuXi AppTec, China. Compounds were incubated at $1.0\\mu\\mathrm{M}$ with human liver S9 at $37^{\\circ}\\mathrm{C}$ for up to $90\\mathrm{min}$ in the presence or absence of an AO inhibitor, raloxifene. The parent compound was measured by LC/MS/MS, and values were expressed as the rate of decay of the parent compound in $\\mathrm{mL}/\\mathrm{min}/\\mathrm{mg}$ . ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "CYP Inhibition Assays. Compounds were tested by WuXi AppTec for inhibition of CYP enzymes. Human liver microsomes were incubated for $10~\\mathrm{min}$ in the presence of test compound at various concentrations $\\left(50{-}0.05~\\mu\\mathbf{M}\\right)$ and with a selective substrate for each CYP isozyme (at $K_{\\mathrm{m},}$ . The formation of the selective metabolite from its substrate was measured by liquid chromatography/mass spectrometry (LC/MS/MS). Substrates used for each Cyp enzyme included: 1A2 (phenacetin), 2C9 (diclofenac), 2C19 (Smephenytoin), 2D6 (dextromethorphan), 3A4-M (midazolam). Values were reported as the $\\mathrm{EC}_{50}$ concentration for inhibition of substrate conversion for each respective CYP. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "hERG Channel Activity. Compounds were tested by $\\mathrm{\\DeltaWuXi}$ AppTec for inhibition of hERG (human ether-à-go-go-related gene) potassium channels stably expressed in a CHO cell line using manual patch-clamp technique. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Cell Culture. CHO-K1 cells expressing hERG (Aviva Biosciences) were cultured in F12 (Invitrogen, USA) supplemented with $10\\%$ fetal bovine serum (HyClone, USA), $100\\mu\\mathrm{g/mL}$ G418 (Invitrogen, USA), and $100\\:\\mu\\mathrm{g/mL}$ hygromycin B (Invitrogen, USA) at $3\\bar{7}~^{\\circ}\\mathrm{C}$ in a humidified atmosphere of air with $5\\%$ $\\mathbf{CO}_{2}$ . For patch-clamp recording, cells were harvested from the culture flask by $2~\\mathrm{min}$ digestion with TrypLE (Invitrogen, USA) and plated in $35~\\mathrm{mm}$ cell culture dishes. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Electrophysiology. hERG channel currents were recorded using a MultiClamp 700B amplifier and pCLAMP 10.2 software (Molecular Devices, USA) and were filtered at $10\\ \\mathrm{kHz}$ . Patch electrodes with resistances of $2{\\cdot}-5\\ensuremath{\\mathrm{M}}\\Omega$ were pulled with a vertical micropipette puller (PC-10 Puller, NARISHIGE, Japan). The extracellular solution $\\left(\\mathbf{\\bar{m}}\\mathbf{M}\\right)$ consisted of the following: NaCl 145, KCl 4, $\\mathbf{CaCl}_{2}$ 2, $\\ensuremath{\\mathrm{MgCl}_{2}}$ 1, HEPES 10, glucose 10 $\\mathsf{\\Pi}_{\\mathrm{{pH}}}$ adjusted to 7.4 with $\\mathrm{\\DeltaNaOH}$ and osmolarity adjusted to ${\\sim}295$ ). The pipet solution $(\\mathrm{mM})$ consisted of the following: KCl 120, KOH 31.25, $\\mathbf{CaCl}_{2}$ 5.374, $\\mathrm{\\Delta{MgCl_{2}}}$ 1.75, ${\\mathrm{Na}}_{2}{\\mathrm{ATP}}4$ , EGTA 10, and HEPES 10 $\\mathrm{\\pH}$ adjusted to 7.2 with KOH and osmolarity adjusted to ${\\sim}285$ ). Amitriptyline (Sigma, USA) was dissolved in dimethyl sulfoxide (DMSO) to obtain a stock solution of $30~\\mathrm{mM}$ stored at $-20~^{\\circ}\\mathrm{C}$ . The final concentration of DMSO in the solution was no more than $0.3\\%$ , which had no effect on hERG current. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Data Analysis. All recorded data were analyzed with Clampfit 10.2 (Molecular Devices, USA), Excel 2003(Microsoft), and GraphPad ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Prism 5.0. The concentration−response curve was fitted by logistic equation of $I/I_{\\mathrm{control}}=$ Bottom $^+$ (Top − Bottom)/ ${\\bar{(1~+)}}$ $10^{\\bullet((\\mathrm{logIC50-}X)\\cdot\\mathrm{Hill}\\mathrm{Slope})}\\big)$ , where $X$ is the logarithm of drug concentration, $I/I_{\\mathrm{control}}$ is the normalized peak current amplitude, Top is 1, and Bottom is equal to a value. Data were expressed as the $\\mathrm{IC}_{50}$ concentration that inhibited $50\\%$ of hERG activity. Compounds were tested over a range of concentrations from 0.3 to $30~\\mu\\mathrm{M}$ . ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Ames Test. A liquid microplate format Mini Ames assay, conducted by WuXi AppTec, China, was used to test the potential mutagenicity of compounds. Briefly, bacteria of S. typhimurium TA98 and TA100 strains were inoculated into growth medium (Xenometrix) at $37^{\\circ}\\mathrm{C},$ , $200~\\mathrm{rpm}$ overnight. The overnight culture was diluted into exposure medium (Xenometrix) in 24-microwell plate and incubated with the test compounds at 6 dose levels of $5,2.5,0.5,0.1_{i}$ 0.02, and $0.004~\\mathrm{mg/mL}$ at $37^{\\circ}\\mathrm{C},$ $250~\\mathrm{rpm}$ for $90~\\mathrm{min}$ . The test was performed in the presence or absence of $4.5\\%$ Aroclor induced rat S9 fraction (Xenometrix). Parallel samples of S. typhimurium TA98 and TA100 without S9 were treated with $2.0~\\mu\\mathrm{g/mL}$ 2-nitrofluorene and $0.1\\mu\\mathrm{g/mL}$ 4-nitroquinoline- $N.$ -oxide as positive controls. Additionally, samples of S. typhimurium TA98 and TA100 with S9 were treated with $1.0\\ \\mathrm{\\mug/mL}$ 2-aminoanthracene and $1.25\\mu\\mathrm{g/mL}$ aminoanthracene as positive controls. After treatment, 24-well plate cultures were diluted in indicator medium (Xenometrix) and aliquoted into 48 wells of a 384-well plate ( $50\\mu\\mathrm{L}$ per well) that was incubated for 48-h at $37~^{\\circ}\\mathrm{C}$ to allow revertant bacteria to form colonies. An increase of $^{>2}$ -fold in the number of positive wells over the baseline (solvent control), for more than one test doses within a dose−response, was classified as positive. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Micronucleus. A micronucleus test was conducted by $\\mathrm{\\DeltaWuXi}$ AppTec, China, to test the potential mutagenicity of compounds. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Cell Culture. CHO-K1 cells were cultured in F12K (Gibco) media supplemented with $1\\%100\\times$ penicillin−streptomycin (Hyclone) and $10\\%$ fetal bovine serum (Hyclone) in humidified atmosphere with $5\\%$ $\\mathrm{CO}_{2}$ in air at $37~^{\\circ}\\mathrm{C}$ . ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Metabolic Activation System. Sprague Dawley rat liver S9 fraction (MOLTOX) was induced with Aroclor 1254. The S9 mix contained $0.3~\\mathrm{mL}$ of S9 and $100\\mu\\mathrm{L}$ of NADP and $25\\mu\\mathrm{L}$ of glucose 6-phosphate per mL. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "In Vitro Micronucleus Assay. CHO-K1 cells were added to 96-well plates (Greiner) at 4000 cells/well $\\left(100\\mu\\mathrm{L},-\\mathrm{S}9\\right)$ or 5000 cells/well $(100\\ \\mathrm{\\mL},\\ +S9)$ and incubated overnight. Test compounds were diluted from $1000\\mu\\mathrm{M}$ with 3-fold dilution over 10 points. Bleomycin sulfate was diluted from $28~\\mu\\mathrm{M}$ with 2-fold dilution over 8 points. Cyclophosphamide was diluted from $400~\\mu\\mathrm{M}$ with 2-fold dilution over 8 points. The final DMSO concentration was $1\\%$ for all test compounds and controls. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "In the first study design, cells were continuously treated for $24\\mathrm{~h~}$ without metabolic activation $(24\\mathrm{h}-\\mathrm{S}9)$ . In the second study design, cells were treated in the presence of $S9{\\mathrm{~mix}}$ for $3\\mathrm{~h~}$ $(3\\mathrm{~h~}+2\\%\\mathrm{~}\\mathrm{S9})$ , washed once with warm media, and cultured in fresh F12K media for $22\\mathrm{~h~}$ . At the end of $^{24\\mathrm{~h,~}}$ cells were washed with fresh medium and cultured in F12K medium containing $6~\\mu\\mathrm{g/mL}$ of cytochalasin B for an additional $24\\mathrm{~h~}$ . Cells were stained with $2.5~\\mu\\mathrm{g/mL}$ Hoechst dye solution and 1 $\\mu\\mathbf{M}$ calcein-AM in $10~\\mu\\mathrm{L}$ of warm PBS for $30~\\mathrm{min}.$ , washed, and examined for the frequency of binucleate cells. A positive result was defined as an over 3-fold concentration-dependent increase in the percentage of micronucleated cells compared to control values. ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Human Kinome-Wide Screen. Compounds were screened for inhibition of 485 human kinases using the SelectScreen Biochemical Kinase Profiling Service from Thermo-Fisher. Compounds were analyzed for inhibition using one of three assays: Z’Lyte assay, Adapta assay, and LanthaScreen Eu Kinase binding assay. Compounds were tested at $1\\mu\\mathrm{M}$ final in $1\\%$ DMSO. For the $Z^{\\prime}$ Lyte and Adapta assays, the ATP concentration matched the respective $K_{\\mathrm{m}}$ for each enzyme, while the LanthaScreen is a direct binding assay run in the absence ATP. For each of the assays, buffers optimized for each kinase were utilized, according to the manufacturer’s protocol. Values were expressed as $\\%$ inhibition $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}(1\\mathbf{\\Sigma}-\\mathbf{\\Sigma}$ (activity in the absence of compound/activity in the presence of compound) $\\times~100\\mathrm{\\cdot}$ ) as an average of duplicate samples run in parallel. Results were visualized using the Interactive Human Kinome tree available at Cell Signaling Technology (https://www.cellsignal.com/contents/science-proteinkinases/protein-kinases-interactive-human-kinome/kinases-humankinome). ",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "In Vitro Safety Panel. A total of 78 target enzymes and biological functions including calcium signaling, nuclear hormones, kinases, ion channels, and various enzymes were analyzed for compound 3a using the Safety 47 panel from Eurofins, DiscoverX. Compounds were tested at $10\\mu\\mathrm{M}$ final concentration in $1\\%$ DMSO using assay buffers optimized for each target, as determined by the manufacturer. Results were reported as $\\%$ of response from two replicate data points ( $(1-$ activity in the presence of compound/activity in the absence of compound) $\\times100\\dot s$ ). ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Statistics. Statistical analyses were performed using Prism (GraphPad Inc.). $\\mathrm{IC}_{50}$ and $\\mathrm{EC}_{50}$ values were determined using normalized, log-transformed (concentration) data fit with nonlinear regression analysis based on sigmoidal dose−response curves with variable slope. Comparisons of survival curves were conducted using a Mantel−Cox test. The minimum $P$ value considered significant was ${\\geq}0.05_{.}$ , and specific cutoffs are given in each of the figure legends. ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ASSOCIATED CONTENT ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ Supporting Information ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.jmedchem.0c00419. ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Supplementary figures and tables and detailed chemical   \nsynthesis; chemistry spectra (PDF)   \nMolecular formulas strings (CSV) ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "AUTHOR INFORMATION ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Corresponding Authors James W. Janetka − Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, Missouri 63110, United States; $\\circledcirc$ orcid.org/0000-0002-9888- 5411; Email: janetkaj@wustl.edu L. David Sibley − Department of Molecular Microbiology, Washington University School of Medicine, St. Louis, Missouri 63110, United States; $\\circledcirc$ orcid.org/0000-0001-7110-0285; Email: sibley@wustl.edu ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Authors ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Allen T. Hopper − Vyera Pharmaceuticals, New York, New York 10016, United States   \nZiping Yang − Vyera Pharmaceuticals, New York, New York 10016, United States   \nJennifer Barks − Department of Molecular Microbiology, Washington University School of Medicine, St. Louis, Missouri 63110, United States   \nMary Savari Dhason − Department of Molecular Microbiology, Washington University School of Medicine, St. Louis, Missouri 63110, United States   \nQiuling Wang − Department of Molecular Microbiology, Washington University School of Medicine, St. Louis, Missouri 63110, United States ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Complete contact information is available at: https://pubs.acs.org/10.1021/acs.jmedchem.0c00419 ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Notes ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "The authors declare the following competing financial interest(s): The work reported here was supported by a Sponsored Research Agreement to Washington University from Vyera Pharmaceuticals. Washington University and Vyera hold joint intellectual property related to this manuscript that is covered by several pending patent applications. ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ACKNOWLEDGMENTS ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "We are grateful to Julie Gould, Andy Wise, Rajesh Odera, and Peter Warn, Evotec UK, for their assistance in performing studies with the acute infection model. We also acknowledge the helpful support of Yan Pan, Zhiyan Chi, Tao Xiong, Xiangling Wang, Yuting Ding, Wujian Ju, Jie Wang, and Xiaoxia Jiao, at WuXi AppTec, China, who conducted the in vitro ADME assays described here. We acknowledge the important contribution of the chemistry team at WuXi, including the following individuals: Jian Zhou, Xiaojie Zhang, and Zhongyuan Wang. Finally, we are grateful to Stephen Thomas and Nick Pelliccione from Vyera Pharmaceuticals for their help in coordinating the studies described here. ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ABBREVIATIONS USED ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "CDPK1, calcium dependent protein kinase 1; hERG, human ether- $\\grave{\\mathbf{a}}$ ̀-go-go-related gene; PK, pharmacokinetics; PP, pyrazolopyrimidine; SAR, structure−activity relationship ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "REFERENCES ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(1) Dubey, J. P. Toxoplasmosis of Animals and Humans; CRC Press: Boca Raton, FL, 2010; pp 1−313. (2) Dubey, J. P., The Life Cycle of Toxoplasma gondii. In Toxoplasma: Molecular and Cellular Biology; Ajioka, J. W., Soldati, D., Eds.; Horizon Bioscience: Norfolk, U.K., 2007; pp 3−16. (3) Watts, E.; Zhao, Y.; Dhara, A.; Eller, B.; Patwardhan, A.; Sinai, A. P. Novel approaches reveal that Toxoplasma gondii bradyzoites within tissue cysts are dynamic andreplicating entities in vivo. mBio 2015, 6 (5), No. e01155-15. (4) (a) Bhadra, ${\\mathrm{R}}.{\\mathrm{}}{\\mathrm{}}$ Cobb, D. A.; Khan, I. A. Donor $\\mathrm{CD8+}$ T cells prevent Toxoplasma gondii de-encystation but fail to rescue the exhausted endogenous $\\mathrm{CD8+}$ T cell population. Infect. Immun. 2013, 81 (9), 3414−3425. (b) Frenkel, J. K.; Escajadillo, A. Cyst rupture as a pathogenic mechanism of toxoplasmic encephalitis. Am. J. Trop. Med. Hyg. 1987, 36, 517−522. (5) (a) Dubey, J. P.; Miller, N. L.; Frenkel, J. K. The Toxoplasma gondii oocyst from cat feces. J. Exp. Med. 1970, 132 (4), 636−662. (b) Frenkel, J. K.; Dubey, J. P.; Miller, N. L. Toxoplasma gondii in cats: fecal stages identified as coccidian oocysts. Science 1970, 167, 893−896. (6) (a) Jones, J. L.; Dubey, J. P. Foodborne toxoplasmosis. Clin. Infect. Dis. 2012, 55, 845−851. (b) Jones, J. L.; Dubey, J. P. Waterborne toxoplasmosis–recent developments. Exp. Parasitol. 2010, 124 (1), 10−25. (7) Montoya, J. G.; Liesenfeld, O. Toxoplasmosis. Lancet 2004, 363, 1965−1976. (8) (a) Luft, B. J.; Remington, J. S. Toxoplasmic encephalitis in AIDS. Clin. Infect. Dis. 1992, 15, 211−222. (b) Israelski, D. M.; Remington, J. S. Toxoplasmosis in the non-AIDS immunocompromised host. Curr. Clin. Top. Infect. Dis. 1993, 13, 322−356. (9) Dunay, I. R.; Gajurel, K.; Dhakal, R.; Liesenfeld, O.; Montoya, J. G. Treatment of toxoplasmosis: historical perspective, animal models, and current clinical practice. Clin. Microbiol. Rev. 2018, 31 (4), No. e00057-17. (10) (a) McCabe, R. E.; Remington, J. S. The diagnosis and treatment of toxoplasmosis. Eur. J. Clin. Microbiol. 1983, 2, 95−104. (b) Ben-Harari, R. R.; Goodwin, E.; Casoy, J. Adverse event profile of pyrimethamine-based therapy in toxoplasmosis: A systematic review. Drugs R&amp;D 2017, 17 (4), 523−544. (11) (a) Frenal, K.; Dubremetz, J. F.; Lebrun, M.; Soldati-Favre, D. Gliding motility powers invasion and egress in Apicomplexa. Nat. Rev. Microbiol. 2017, 15 (11), 645−660. (b) Sibley, L. D. How apicomplexan parasites move in and out of cells. Curr. Opin. Biotechnol. 2010, 21, 592−598. ",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(12) Lourido, S.; Shuman, J.; Zhang, C.; Shokat, K. M.; Hui, R.; Sibley, L. D. Calcium-dependent protein kinase 1 is an essential regulator of exocytosis in Toxoplasma. Nature 2010, 465, 359−362. (13) (a) Ojo, K. K.; Larson, E. T.; Keyloun, K. R.; Castaneda, L. J.; DeRocher, A. E.; Inampudi, K. K.; Kim, J. E.; Arakaki, T. L.; Murphy, R. C.; Zhang, L.; Napuli, A. J.; Maly, D. J.; Verlinde, C. L. M. J.; Buckner, F. S.; Parsons, M.; Hol, W. G. J.; Merritt, E. A.; Van Voorhis, C. Toxoplasma gondii calcium-dependent protein kinase 1 is a target for selective kinase inhibitors. Nat. Struct. Mol. Biol. 2010, 17, 602− 607. (b) Wernimont, A. K.; Artz, J. D.; Finerty, P.; Lin, Y.; Amani, M.; Allali-Hassani, A.; Senisterra, G.; Vedadi, M.; Tempel, W.; Mackenzie, F.; Chau, I.; Lourido, S.; Sibley, L. D.; Hui, R. Structures of apicomplexan calcium-dependent protein kinases reveal mechanism of activation by calcium. Nat. Struct. Mol. Biol. 2010, 17, 596−601. (14) (a) Bishop, A. C.; Ubersax, J. A.; Petsch, D. T.; Matheos, D. P.; Gray, N. S.; Blethrow, J.; Shimizu, E.; Tsien, J. Z.; Schultz, P. G.; Rose, M. D.; Wood, J. L.; Morgan, D. O.; Shokat, K. M. A chemical switch for inhibitor-sensitive alleles of any protein kinase. Nature 2000, 407 (6802), 395−401. (b) Bishop, A. C.; Shokat, K. M. Acquisition of inhibitor-sensitive protein kinases through protein design. Pharmacol. Ther. 1999, 82 (2−3), 337−346.   \n(15) (a) Larson, E. T.; Ojo, K. K.; Murphy, R. C.; Johnson, S. M.; Zhang, Z.; Kim, J. E.; Leibly, D. J.; Fox, A. M.; Reid, M. C.; Dale, E. J.; Perera, B. G.; Kim, J.; Hewitt, S. N.; Hol, W. G.; Verlinde, C. L.; Fan, E.; Van Voorhis, W. C.; Maly, D. J.; Merritt, E. A. Multiple determinants for selective inhibition of apicomplexan calciumdependent protein kinase CDPK1. J. Med. Chem. 2012, 55 (6), 2803−2810. (b) Murphy, R. C.; Ojo, K. K.; Larson, E. T.; Castellanos-Gonzalez, A.; Perera, B. G.; Keyloun, K. R.; Kim, J. E.; Bhandari, J. G.; Muller, N. R.; Verlinde, C. L.; White, A. C.; Merritt, E. A.; Van Voorhis, W. C.; Maly, D. J. Discovery of potent and selective inhibitors of calcium-dependent protein kinase 1 (CDPK1) from C. parvum and T. gondii. ACS Med. Chem. Lett. 2010, 1 (7), 331−335. (c) Lourido, S.; Zhang, C.; Lopez, M. S.; Tang, K.; Barks, J.; Wang, $\\mathrm{Q.;}$ Wildman, S. A.; Shokat, K. M.; Sibley, L. D. Optimizing small molecule inhibitors of calcium-dependent protein kinase 1 to prevent infection by Toxoplasma gondii. J. Med. Chem. 2013, 56, 3068−3077.   \n(16) (a) Vidadala, R. S. R.; Golkowski, M.; Hulverson, M. A.; Choi, R.; McCloskey, M. C.; Whitman, G. R.; Huang, W.; Arnold, S. L. M.; Barrett, L. K.; Fan, E.; Merritt, E. A.; Van Voorhis, W. C.; Ojo, K. K.; Maly, D. J. 7 H-Pyrrolo[2,3- d]pyrimidin-4-amine-based inhibitors of calcium-dependent protein kinase 1 have distinct inhibitory and oral pharmacokinetic characteristics compared with 1 H-Pyrazolo[3,4- d]pyrimidin-4-amine-based inhibitors. ACS Infect. Dis. 2018, 4 (4), 516−522. (b) Vidadala, R. S.; Rivas, K. L.; Ojo, K. K.; Hulverson, M. A.; Zambriski, J. A.; Bruzual, I.; Schultz, T. L.; Huang, W.; Zhang, Z.; Scheele, S.; DeRocher, A. E.; Choi, R.; Barrett, L. K.; Siddaramaiah, L. K.; Hol, W. G.; Fan, E.; Merritt, E. A.; Parsons, M.; Freiberg, G.; Marsh, K.; Kempf, D. J.; Carruthers, V. B.; Isoherranen, N.; Doggett, J. S.; Van Voorhis, W. C.; Maly, D. J. Development of an orally available and central nervous system (CNS) penetrant Toxoplasma gondii calcium-dependent protein kinase 1 (TgCDPK1) inhibitor with minimal human ether-a-go-go-related gene (hERG) activity for the treatment of toxoplasmosis. J. Med. Chem. 2016, 59 (13), 6531−6546. (c) Johnson, S. M.; Murphy, R. C.; Geiger, J. A.; DeRocher, A. E.; Zhang, Z.; Ojo, K. K.; Larson, E. T.; Perera, B. G.; Dale, E. J.; He, P.; Reid, M. C.; Fox, A. M.; Mueller, N. R.; Merritt, E. A.; Fan, E.; Parsons, M.; Van Voorhis, W. C.; Maly, D. J. Development of Toxoplasma gondii calcium-dependent protein kinase 1 (TgCDPK1) inhibitors with potent anti-toxoplasma activity. J. Med. Chem. 2012, 55 (5), 2416−2426.   \n(17) Hui, R.; El Bakkouri, M.; Sibley, L. D. Designing selective inhibitors for calcium-dependent protein kinases in apicomplexans. Trends Pharmacol. Sci. 2015, 36 (7), 452−460.   \n(18) Van Voorhis, W. C.; Doggett, J. S.; Parsons, M.; Hulverson, M. A.; Choi, R.; Arnold, S. L. M.; Riggs, M. W.; Hemphill, A.; Howe, D. K.; Mealey, R. H.; Lau, A. O. T.; Merritt, E. A.; Maly, D. J.; Fan, E.; Ojo, K. K. Extended-spectrum antiprotozoal bumped kinase inhibitors: A review. Exp. Parasitol. 2017, 180, 71−83.   \n(19) Doggett, J. S.; Ojo, K. K.; Fan, E.; Maly, D. J.; Van Voorhis, W. C. Bumped kinase inhibitor 1294 treats established Toxoplasma gondii infection. Antimicrob. Agents Chemother. 2014, 58 (6), 3547−3549. (20) Rutaganira, F. U.; Barks, J.; Dhason, M. S.; Wang, $\\mathrm{Q.;}$ Lopez, M. S.; Long, S.; Radke, J. B.; Jones, N. G.; Maddirala, A. R.; Janetka, J. W.; El Bakkouri, M.; Hui, R.; Shokat, K. M.; Sibley, L. D. Inhibition of calcium dependent protein kinase 1 (CDPK1) by pyrazolopyrimidine analogs decreases establishment and reoccurrence of central nervous system disease by Toxoplasma gondii. J. Med. Chem. 2017, 60 (24), 9976−9989.   \n(21) Ojo, K. K.; Eastman, R. T.; Vidadala, R.; Zhang, Z.; Rivas, K. L.; Choi, R.; Lutz, J. D.; Reid, M. C.; Fox, A. M.; Hulverson, M. A.; Kennedy, M.; Isoherranen, N.; Kim, L. M.; Comess, K. M.; Kempf, D. J.; Verlinde, C. L.; Su, X. Z.; Kappe, S. H.; Maly, D. J.; Fan, E.; Van Voorhis, W. C. A specific inhibitor of PfCDPK4 blocks malaria transmission: chemical-genetic validation. J. Infect. Dis. 2014, 209 (2), 275−284.   \n(22) Dobrowolski, J. M.; Sibley, L. D. Toxoplasma invasion of mammalian cells is powered by the actin cytoskeleton of the parasite. Cell 1996, 84 (6), 933−939.   \n(23) Shibue, T.; Fukuda, Y. Efficient synthesis of cyclopropylhydrazine salts. Tetrahedron Lett. 2014, 55 (30), 4102−4104.   \n(24) Neidlein, R.; Kikelj, D. A facilesynthesis of dialkoxycarbonylketene-ethylene, dicyanoketene-ethylene, and alkoxycarbonyl(cyano)- ketene-ethylene acetals. Synthesis 1988, 1988 (12), 981−983.   \n(25) Miah, A. H.; Champigny, A. C.; Graves, R. H.; Hodgson, S. T.; Percy, J. M.; Procopiou, P. A. Identification of pyrazolopyrimidine arylsulfonamides as CC-chemokine receptor 4 (CCR4) antagonists. Bioorg. Med. Chem. 2017, 25 (20), 5327−5340.   \n(26) Winzer, P.; Muller, J.; Aguado-Martinez, A.; Rahman, M.; Balmer, V.; Manser, V.; Ortega-Mora, L. M.; Ojo, K. K.; Fan, E.; Maly, D. J.; Van Voorhis, W. C.; Hemphill, A. In vitro and in vivo effects of the bumped kinase inhibitor 1294 in the related cystforming apicomplexans Toxoplasma gondii and Neospora caninum. Antimicrob. Agents Chemother. 2015, 59 (10), 6361−6374.   \n(27) Sugi, T.; Kobayashi, K.; Takemae, H.; Gong, H.; Ishiwa, A.; Murakoshi, F.; Recuenco, F. C.; Iwanaga, T.; Horimoto, T.; Akashi, H.; Kato, K. Identification of mutations in TgMAPK1 of Toxoplasma gondii conferring resistance to 1NM-PP1. Int. J. Parasitol.: Drugs Drug Resist. 2013, 3, 93−101.   \n(28) Liu, Y.; Bishop, A.; Witucki, L.; Kraybill, B.; Shimizu, E.; Tsien, J.; Ubersax, J.; Blethrow, J.; Morgan, D. O.; Shokat, K. M. Structural basis for selective inhibition of Src family kinases by PP1. Chem. Biol. 1999, 6 (9), 671−678.   \n(29) Lorenzi, H.; Khan, A.; Behnke, M. S.; Namasivayam, S.; Swapna, L. S.; Hadjithomas, M.; Karamycheva, S.; Pinney, D.; Brunk, B. P.; Ajioka, J. W.; Ajzenberg, D.; Boothroyd, J. C.; Boyle, J. P.; Darde, M. L.; Diaz-Miranda, M. A.; Dubey, J. P.; Fritz, H. M.; Gennari, S. M.; Gregory, B. D.; Kim, K.; Saeij, J. P.; Su, C.; White, M. W.; Zhu, X. $\\mathrm{Q.;}$ Howe, D. K.; Rosenthal, B. M.; Grigg, M. E.; Parkinson, J.; Liu, L.; Kissinger, J. C.; Roos, D. S.; Sibley, L. D. Local admixture of amplified and diversified secreted pathogenesis determinants shapes mosaic Toxoplasma gondii genomes. Nat. Commun. 2016, 7, 10147.   \n(30) Garattini, E.; Terao, M. The role of aldehyde oxidase in drug metabolism. Expert Opin. Drug Metab. Toxicol. 2012, 8 (4), 487−503. (31) Chen, J. F.; Eltzschig, H. K.; Fredholm, B. B. Adenosine receptors as drug targets–what are the challenges? Nat. Rev. Drug Discovery 2013, 12 (4), 265−286.   \n(32) Vandenberg, J. I.; Perry, M. D.; Perrin, M. J.; Mann, S. A.; Ke, Y.; Hill, A. P. hERG $\\operatorname{K}(+)$ channels: structure, function, and clinical significance. Physiol. Rev. 2012, 92 (3), 1393−1478.   \n(33) Lynch, T.; Price, A. The effect of cytochrome P450 metabolism on drug response, interactions, and adverse effects. Am. Fam. Physician 2007, 76 (3), 391−396.   \n(34) (a) Sibley, L. D.; Boothroyd, J. C. Virulent strains of Toxoplasma gondii comprise a single clonal lineage. Nature (London, U. K.) 1992, 359, 82−85. (b) Su, C.; Howe, D. K.; Dubey, J. P.; Ajioka, J. W.; Sibley, L. D. Identification of quantitative trait loci controlling acute virulence in Toxoplasma gondii. Proc. Natl. Acad. Sci. U. S. A. 2002, 99, 10753−10758.   \n(35) Behnke, M. S.; Fentress, S. J.; Mashayekhi, M.; Li, L. L.; Taylor, G. A.; Sibley, L. D. The polymorphic pseudokinase ROP5 controls virulence in Toxoplasma gondii by regulating the active kinase ROP18. PLoS Pathog. 2012, 8, No. e1002992.   \n(36) Bowen, L. N.; Smith, B.; Reich, D.; Quezado, M.; Nath, A. HIV-associated opportunistic CNS infections: pathophysiology, diagnosis and treatment. Nat. Rev. Neurol. 2016, 12 (11), 662−674. (37) McCabe, R. E. Antitoxoplasma Chemotherapy. In Toxoplasmosis: A Comprehensive Clinical Guide; Joynson, D. H. M., Wreghitt, T. G., Eds.; Cambridge University Press: Cambridge, U.K., 2001; pp 319−359.   \n(38) Tobin, C. M.; Knoll, L. J. A patatin-like protein protects Toxoplasma gondii from degradation in a nitric oxide-dependent manner. Infect. Immun. 2012, 80 (1), 55−61.   \n(39) Fux, B.; Nawas, J.; Khan, A.; Gill, D. B.; Su, C.; Sibley, L. D. Toxoplasma gondii strains defective in oral transmission are also defective in developmental stage differentiation. Infect. Immun. 2007, 75 (5), 2580−2590.   \n(40) (a) Dunay, I. R.; Chan, W. C.; Haynes, R. K.; Sibley, L. D. Artemisone and artemiside control acute and reactivated toxoplasmosis in the murine model. Antimicrob. Agents Chemother. 2009, 53, 4450−4456. (b) Dunay, I. R.; Heimesaat, M. M.; Bushrab, F. N.; Muller, R. H.; Stocker, H.; Arasteh, K.; Kurowski, M.; Fitzner, R.; Borner, K.; Liesenfeld, O. Atovaquone maintenance therapy prevents reactivation of toxopasmic encepahalitis in the murine model of reactivated toxoplasmosis. Antimicrob. Agents Chemother. 2004, 48, 4848−4854.   \n(41) Khan, A.; Ajzenberg, D.; Mercier, A.; Demar, M.; Simon, S.; Darde, M. L.; Wang, Q.; Verma, S. K.; Rosenthal, B. M.; Dubey, J. P.; Sibley, L. D. Geographic separation of domestic and wild strains of Toxoplasma gondii in French Guiana correlates with a monomorphic version of chromosome1a. PLoS Neglected Trop. Dis. 2014, 8, No. e3182.   \n(42) Eid, S.; Turk, S.; Volkamer, A.; Rippmann, F.; Fulle, S. KinMap: a web-based tool for interactive navigation through human kinome data. BMC Bioinf. 2017, 18 (1), 16. ",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 19
+    }
+]
