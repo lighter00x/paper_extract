@@ -46,3 +46,5 @@ python main.py
 processor.py的部分内容，比如提示词的路径，需要自己根据需求再修改，此处项目文件内不提供prompts文件。
 ### 3.env文件部分内容空白
 调用llm的api_key和base_url需要根据自己的情况进行补充填写
+### 4.image-smiles转换工具
+如果有兴趣，请根据自己的实际情况进行修改
